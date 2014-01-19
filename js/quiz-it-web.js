@@ -18,10 +18,6 @@ QuizItWeb = {
         }
     },
 
-    onGuessButton_click: function () {
-        QuizItWeb.guess();
-    },
-
     /* Methods */
     init: function () {
         var quizName = this._getParameterByName("quiz");
@@ -38,7 +34,6 @@ QuizItWeb = {
         $(".js-message").html(QuizIt.getMessageText());
         this._update();
 
-        $(".js-guess-button").on("click", this.onGuessButton_click);
         $(".js-answer-input").on("keydown", this.onAnswerInput_keydown);
     },
 
@@ -55,7 +50,6 @@ QuizItWeb = {
 
         if (right === true) {
             message = "You got it right!";
-            $(".js-answer-input").val(null);
         } else if (right === false) {
             message = "You got it wrong. The answer is '{0}'.".format(QuizIt.getCurrentAnswer());
         }
@@ -64,7 +58,8 @@ QuizItWeb = {
 
         this._update();
 
-        $(".js-answer-input").select();
+        $(".js-answer-input").val(null);
+        $(".js-answer-input").focus();
     },
 
     _update: function () {
