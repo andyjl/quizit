@@ -80,10 +80,23 @@ QuizIt = {
             throw "You must specify an answer.";
         }
 
+        var right = false;
         answer = answer.toLowerCase();
-        var currentAnswer = this._getCurrentAnswer().toLowerCase();
 
-        if (answer == currentAnswer) {
+        // If the currentAnswer is an array, check if the answer is in the list.
+        var currentAnswer = this._getCurrentAnswer();
+        if (Array.isArray(currentAnswer)) {
+            $.each(currentAnswer, function (index, possibleAnswer) {
+                if (answer == possibleAnswer.toLowerCase()) {
+                    right = true;
+                    return false;
+                }
+            });
+        } else {
+            right = (answer == currentAnswer.toLowerCase());
+        }
+
+        if (right) {
             if (!this.currentIsWrong) {
                 this.rightCount++;
             }
