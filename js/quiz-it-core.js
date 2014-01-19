@@ -52,6 +52,10 @@ QuizIt = {
         return this.activeQuiz;
     },
 
+    getCurrentAnswer: function () {
+        return this._getCurrentAnswer();
+    },
+
     getCurrentPrompt: function () {
         return this._getCurrentPrompt();
     },
