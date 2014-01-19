@@ -57,7 +57,7 @@ QuizItWeb = {
             message = "You got it right!";
             $(".js-answer-input").val(null);
         } else if (right === false) {
-            message = "You got it wrong.";
+            message = "You got it wrong. The answer is '{0}'.".format(QuizIt.getCurrentAnswer());
         }
 
         $(".js-response").html(message);
