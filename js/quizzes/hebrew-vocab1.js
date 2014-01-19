@@ -149,6 +149,14 @@ QuizIt.addQuiz({
         { 
             hebrewWord: "אוכל (oxel)", 
             englishWords: ["food"] 
+        },
+        {
+            hebrewWord: "איש (ish)",
+            englishWords: "man"
+        },
+        {
+            hebrewWord: "אישה (isha)",
+            englishWords: "woman"
         }
     ]
 
