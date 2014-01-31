@@ -8,6 +8,7 @@ QuizIt = {
     quizzes: {},
     rightCount: 0,
     wrongCount: 0,
+    wrongProblems: [],
 
     /* Private Methods */
     _getCurrentAnswer: function () {
@@ -18,12 +19,21 @@ QuizIt = {
         return this.currentProblem[this.activeQuiz.promptField];
     },
 
-    _loadNextProblem: function () {
+    _loadNextProblem: function (wasRight, removeCurrent) {
+        if (wasRight) {
+            this.problems.shift();
+            if (!removeCurrent) {
+                this.problems.push(this.currentProblem);
+                this.wrongProblems.push(this.currentProblem);
+            }
+        }
+
         if (this.problems.length === 0) {
             this._setup();
         }
 
-        this.currentProblem = this.problems.pop();
+        this.currentProblem = this.problems[0];
+
         this.currentIsWrong = false;
     },
 
@@ -31,6 +41,7 @@ QuizIt = {
         this.currentProblem = null;
         this.rightCount = 0;
         this.wrongCount = 0;
+        this.wrongProblems = [];
 
         // Randomize and clone the problems.
         this.problems = [];
@@ -97,11 +108,11 @@ QuizIt = {
         }
 
         if (right) {
-            if (!this.currentIsWrong) {
+            if (!this.currentIsWrong && this.wrongProblems.indexOf(this.currentProblem) === -1) {
                 this.rightCount++;
             }
 
-            this._loadNextProblem();
+            this._loadNextProblem(true, !this.currentIsWrong);
 
             return true;
         } else {
