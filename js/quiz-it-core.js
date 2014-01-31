@@ -64,7 +64,7 @@ QuizIt = {
     },
 
     getCurrentAnswer: function () {
-        return this._getCurrentAnswer();
+        return this._getCurrentAnswer().join(", ");
     },
 
     getCurrentPrompt: function () {
