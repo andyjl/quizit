@@ -157,6 +157,112 @@ QuizIt.addQuiz({
         {
             hebrewWord: "אישה (isha)",
             englishWords: "woman"
+        },
+
+        // Unit 3
+        {
+            hebrewWord: "גר (gar, m)", 
+            englishWords: ["live"]
+        },
+        {
+            hebrewWord: "גרה (gara, f)", 
+            englishWords: ["live"]
+        },
+        {
+            hebrewWord: "לומד (lomed, m)", 
+            englishWords: ["learn"]
+        },
+        {
+            hebrewWord: "לומדת (lomedet, f)", 
+            englishWords: ["learn"]
+        },
+        {
+            hebrewWord: "מה? (ma?)", 
+            englishWords: ["what"]
+        },
+        {
+            hebrewWord: "מה נשמע? (ma nishma?)", 
+            englishWords: ["How are you"]
+        },
+        {
+            hebrewWord: "איפה? (eifo?)", 
+            englishWords: ["where"]
+        },
+        {
+            hebrewWord: "אוטובוס (otobus)", 
+            englishWords: ["bus"]
+        },
+        {
+            hebrewWord: "אימא (ima)", 
+            englishWords: ["mother"]
+        },
+        {
+            hebrewWord: "יין (yayin)", 
+            englishWords: ["wine"]
+        },
+        {
+            hebrewWord: "ים (yam)", 
+            englishWords: ["sea"]
+        },
+        {
+            hebrewWord: "כסף (kesef)", 
+            englishWords: ["money"]
+        },
+        {
+            hebrewWord: "מים (mayim)", 
+            englishWords: ["water"]
+        },
+        {
+            hebrewWord: "מלך (melex)", 
+            englishWords: ["king"]
+        },
+        {
+            hebrewWord: "מלכה (malka)", 
+            englishWords: ["queen"]
+        },
+        {
+            hebrewWord: "עוגה (uga)", 
+            englishWords: ["cake"]
+        },
+        {
+            hebrewWord: "עט (et)", 
+            englishWords: ["pen"]
+        },
+        {
+            hebrewWord: "עין (ayin)", 
+            englishWords: ["eye"]
+        },
+        {
+            hebrewWord: "פה (pe)", 
+            englishWords: ["mouth"]
+        },
+        {
+            hebrewWord: "מצוין (metsuyan)", 
+            englishWords: ["great"]
+        },
+        {
+            hebrewWord: "טוב (tov)", 
+            englishWords: ["good"]
+        },
+        {
+            hebrewWord: "טוב מאוד (tov me'od)", 
+            englishWords: ["very good"]
+        },
+        {
+            hebrewWord: "בסדר (beseder)", 
+            englishWords: ["OK"]
+        },
+        {
+            hebrewWord: "ככה ככה (kaxa kaxa)", 
+            englishWords: ["so so"]
+        },
+        {
+            hebrewWord: "רע (ra)", 
+            englishWords: ["bad"]
+        },
+        {
+            hebrewWord: "רע מאוד (ra me'od)", 
+            englishWords: ["very bad"]
         }
     ]
 
