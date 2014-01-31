@@ -116,7 +116,7 @@ QuizIt = {
 
             return true;
         } else {
-            if (!this.currentIsWrong) {
+            if (!this.currentIsWrong && this.wrongProblems.indexOf(this.currentProblem) === -1) {
                 this.wrongCount++;
             }
 
