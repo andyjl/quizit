@@ -1,6 +1,6 @@
 QuizIt.addQuiz({
 
-    name: 'hebrew-vocab1',
+    name: 'hebrew-vocab-hardcore',
     messageText: 'Translate this Hebrew word into English',
 
     promptField: 'hebrewWord',
@@ -9,265 +9,265 @@ QuizIt.addQuiz({
     problems: [
         // Unit 1
         { 
-            hebrewWord: "אני (ani)", 
+            hebrewWord: "אני",
             englishWords: ["I"] 
         },
         { 
-            hebrewWord: "אתה (ata, m)", 
+            hebrewWord: "אתה",
             englishWords: ["you"] 
         },
         { 
-            hebrewWord: "את (at, f)", 
+            hebrewWord: "את",
             englishWords: ["you"] 
         },
         { 
-            hebrewWord: "מי? (mi?)", 
+            hebrewWord: "מי?",
             englishWords: ["who"] 
         },
         { 
-            hebrewWord: "כן (ken)", 
+            hebrewWord: "כן",
             englishWords: ["yes"] 
         },
         { 
-            hebrewWord: "לא (lo)", 
+            hebrewWord: "לא",
             englishWords: ["no"] 
         },
         { 
-            hebrewWord: "שלום (shalom)", 
+            hebrewWord: "שלום",
             englishWords: ["hello", "goodbye"] 
         },
         { 
-            hebrewWord: "להתראות (lehitra'ot)", 
+            hebrewWord: "להתראות",
             englishWords: ["see you"] 
         },
         { 
-            hebrewWord: "נעים מאוד (na'im me'od)", 
+            hebrewWord: "נעים מאוד",
             englishWords: ["nice to meet you"] 
         },
         { 
-            hebrewWord: "ו.. (ve)", 
+            hebrewWord: "ו..",
             englishWords: ["and"] 
         },
         { 
-            hebrewWord: "אבא (aba)", 
+            hebrewWord: "אבא",
             englishWords: ["father"] 
         },
         { 
-            hebrewWord: "דג (dag)", 
+            hebrewWord: "דג",
             englishWords: ["fish"] 
         },
         { 
-            hebrewWord: "בגד (beged)", 
+            hebrewWord: "בגד",
             englishWords: ["garment"] 
         },
         { 
-            hebrewWord: "חבר (xaver)", 
+            hebrewWord: "חבר",
             englishWords: ["friend"] 
         },
         { 
-            hebrewWord: "חברה (xavera, f)", 
+            hebrewWord: "חברה",
             englishWords: ["friends"] 
         },
         { 
-            hebrewWord: "חברים (xaverim, m)", 
+            hebrewWord: "חברים",
             englishWords: ["friends"] 
         },
         { 
-            hebrewWord: "חברות (xaverot, f)", 
+            hebrewWord: "חברות",
             englishWords: ["friends"] 
         },
 
         // Unit 2
         { 
-            hebrewWord: "הוא (hu)", 
+            hebrewWord: "הוא",
             englishWords: ["he"] 
         },
         { 
-            hebrewWord: "היא (hi)", 
+            hebrewWord: "היא",
             englishWords: ["she"] 
         },
         { 
-            hebrewWord: "מורה (more)", 
+            hebrewWord: "מורה",
             englishWords: ["teacher"] 
         },
         { 
-            hebrewWord: "מורה (mora)", 
+            hebrewWord: "מורה",
             englishWords: ["teacher"] 
         },
         { 
-            hebrewWord: "תלמיד (talmid)", 
+            hebrewWord: "תלמיד",
             englishWords: ["student"] 
         },
         { 
-            hebrewWord: "תלמידה (talmida)", 
+            hebrewWord: "תלמידה",
             englishWords: ["student"] 
         },
         { 
-            hebrewWord: "ילד (yeled)", 
+            hebrewWord: "ילד",
             englishWords: ["boy"] 
         },
         { 
-            hebrewWord: "ילדה (yalda)", 
+            hebrewWord: "ילדה",
             englishWords: ["girl"] 
         },
         { 
-            hebrewWord: "מאיפה (me'eifo?)", 
+            hebrewWord: "מאיפה",
             englishWords: ["where from"] 
         },
         { 
-            hebrewWord: "או (O)", 
+            hebrewWord: "או",
             englishWords: ["or"] 
         },
         { 
-            hebrewWord: "גם (gam)", 
+            hebrewWord: "גם",
             englishWords: ["also"] 
         },
         { 
-            hebrewWord: "מ... (mi / me)", 
+            hebrewWord: "מ...",
             englishWords: ["from"] 
         },
         { 
-            hebrewWord: "דגל (degel)", 
+            hebrewWord: "דגל",
             englishWords: ["flag"] 
         },
         { 
-            hebrewWord: "גלידה (glida)", 
+            hebrewWord: "גלידה",
             englishWords: ["ice cream"] 
         },
         { 
-            hebrewWord: "כלב (kelev)", 
+            hebrewWord: "כלב",
             englishWords: ["dog"] 
         },
         { 
-            hebrewWord: "חג (xag)", 
+            hebrewWord: "חג",
             englishWords: ["holiday"] 
         },
         { 
-            hebrewWord: "יד (yad)", 
+            hebrewWord: "יד",
             englishWords: ["hand"] 
         },
         { 
-            hebrewWord: "אוכל (oxel)", 
+            hebrewWord: "אוכל",
             englishWords: ["food"] 
         },
         {
-            hebrewWord: "איש (ish)",
+            hebrewWord: "איש",
             englishWords: "man"
         },
         {
-            hebrewWord: "אישה (isha)",
+            hebrewWord: "אישה",
             englishWords: "woman"
         },
 
         // Unit 3
         {
-            hebrewWord: "גר (gar, m)", 
+            hebrewWord: "גר",
             englishWords: ["live"]
         },
         {
-            hebrewWord: "גרה (gara, f)", 
+            hebrewWord: "גרה",
             englishWords: ["live"]
         },
         {
-            hebrewWord: "לומד (lomed, m)", 
+            hebrewWord: "לומד",
             englishWords: ["learn"]
         },
         {
-            hebrewWord: "לומדת (lomedet, f)", 
+            hebrewWord: "לומדת",
             englishWords: ["learn"]
         },
         {
-            hebrewWord: "מה? (ma?)", 
+            hebrewWord: "מה?",
             englishWords: ["what"]
         },
         {
-            hebrewWord: "מה נשמע? (ma nishma?)", 
+            hebrewWord: "מה נשמע?",
             englishWords: ["How are you", "whats up", "what's up"]
         },
         {
-            hebrewWord: "איפה? (eifo?)", 
+            hebrewWord: "איפה?",
             englishWords: ["where"]
         },
         {
-            hebrewWord: "אוטובוס (otobus)", 
+            hebrewWord: "אוטובוס",
             englishWords: ["bus"]
         },
         {
-            hebrewWord: "אימא (ima)", 
+            hebrewWord: "אימא",
             englishWords: ["mother"]
         },
         {
-            hebrewWord: "יין (yayin)", 
+            hebrewWord: "יין",
             englishWords: ["wine"]
         },
         {
-            hebrewWord: "ים (yam)", 
+            hebrewWord: "ים",
             englishWords: ["sea"]
         },
         {
-            hebrewWord: "כסף (kesef)", 
+            hebrewWord: "כסף",
             englishWords: ["money"]
         },
         {
-            hebrewWord: "מים (mayim)", 
+            hebrewWord: "מים",
             englishWords: ["water"]
         },
         {
-            hebrewWord: "מלך (melex)", 
+            hebrewWord: "מלך",
             englishWords: ["king"]
         },
         {
-            hebrewWord: "מלכה (malka)", 
+            hebrewWord: "מלכה",
             englishWords: ["queen"]
         },
         {
-            hebrewWord: "עוגה (uga)", 
+            hebrewWord: "עוגה",
             englishWords: ["cake"]
         },
         {
-            hebrewWord: "עט (et)", 
+            hebrewWord: "עט",
             englishWords: ["pen"]
         },
         {
-            hebrewWord: "עין (ayin)", 
+            hebrewWord: "עין",
             englishWords: ["eye"]
         },
         {
-            hebrewWord: "פה (pe)", 
+            hebrewWord: "פה",
             englishWords: ["mouth"]
         },
         {
-            hebrewWord: "מצוין (metsuyan)", 
+            hebrewWord: "מצוין",
             englishWords: ["great"]
         },
         {
-            hebrewWord: "טוב (tov)", 
+            hebrewWord: "טוב",
             englishWords: ["good"]
         },
         {
-            hebrewWord: "טוב מאוד (tov me'od)", 
+            hebrewWord: "טוב מאוד",
             englishWords: ["very good"]
         },
         {
-            hebrewWord: "בסדר (beseder)", 
+            hebrewWord: "בסדר",
             englishWords: ["OK"]
         },
         {
-            hebrewWord: "ככה ככה (kaxa kaxa)", 
+            hebrewWord: "ככה ככה",
             englishWords: ["so so"]
         },
         {
-            hebrewWord: "רע (ra)", 
+            hebrewWord: "רע",
             englishWords: ["bad"]
         },
         {
-            hebrewWord: "רע מאוד (ra me'od)", 
+            hebrewWord: "רע מאוד",
             englishWords: ["very bad"]
         },
 
         // Extras
         {
-            hebrewWord: "בטוח (betax)",
+            hebrewWord: "בטוח",
             englishWords: ["sure"]
         }
     ]
