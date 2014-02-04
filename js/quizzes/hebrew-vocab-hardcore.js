@@ -265,6 +265,120 @@ QuizIt.addQuiz({
             englishWords: ["very bad"]
         },
 
+        // Unit 4
+        { 
+            hebrewWord: "אנשים", 
+            englishWords: ["men", "people"]
+        },
+        { 
+            hebrewWord: "נשים", 
+            englishWords: ["women"]
+        },
+        { 
+            hebrewWord: "ארץ", 
+            englishWords: ["country", "land"]
+        },
+        { 
+            hebrewWord: "ארצות", 
+            englishWords: ["countries", "lands"]
+        },
+        { 
+            hebrewWord: "בית", 
+            englishWords: ["house"]
+        },
+        { 
+            hebrewWord: "בתים", 
+            englishWords: ["houses"]
+        },
+        { 
+            hebrewWord: "מחברת", 
+            englishWords: ["notebook"]
+        },
+        { 
+            hebrewWord: "מחברות", 
+            englishWords: ["notebooks"]
+        },
+        { 
+            hebrewWord: "מחשב", 
+            englishWords: ["computer"]
+        },
+        { 
+            hebrewWord: "מחשבים", 
+            englishWords: ["computers"]
+        },
+        { 
+            hebrewWord: "ספר", 
+            englishWords: ["book"]
+        },
+        { 
+            hebrewWord: "ספרים", 
+            englishWords: ["books"]
+        },
+        { 
+            hebrewWord: "עיר", 
+            englishWords: ["city", "town"]
+        },
+        { 
+            hebrewWord: "ערים", 
+            englishWords: ["cities", "towns"]
+        },
+        { 
+            hebrewWord: "שעון", 
+            englishWords: ["clock", "watch"]
+        },
+        { 
+            hebrewWord: "שעונים", 
+            englishWords: ["clocks", "watches"]
+        },
+        { 
+            hebrewWord: "שקל", 
+            englishWords: ["shekel"]
+        },
+        { 
+            hebrewWord: "שקלים", 
+            englishWords: ["shekels"]
+        },
+        { 
+            hebrewWord: "שמש", 
+            englishWords: ["sun"]
+        },
+        { 
+            hebrewWord: "זה", 
+            englishWords: ["this"]
+        },
+        { 
+            hebrewWord: "זאת", 
+            englishWords: ["this"]
+        },
+        { 
+            hebrewWord: "אלה", 
+            englishWords: ["these"]
+        },
+        { 
+            hebrewWord: "של", 
+            englishWords: ["of"]
+        },
+        { 
+            hebrewWord: "ה", 
+            englishWords: ["the"]
+        },
+        { 
+            hebrewWord: "זכר", 
+            englishWords: ["masculine"]
+        },
+        { 
+            hebrewWord: "נקבה", 
+            englishWords: ["feminine"]
+        },
+        { 
+            hebrewWord: "יחיד", 
+            englishWords: ["singular"]
+        },
+        { 
+            hebrewWord: "רבים", 
+            englishWords: ["plural"]
+        },
+
         // Extras
         {
             hebrewWord: "בטוח",
