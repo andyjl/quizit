@@ -383,6 +383,26 @@ QuizIt.addQuiz({
         {
             hebrewWord: "בטוח",
             englishWords: ["sure"]
+        },
+        {
+            hebrewWord: "מה שלומך",
+            englishWords: ["how are you"]
+        },
+        {
+            hebrewWord: "תודה",
+            englishWords: ["thank you", "thanks"]
+        },
+        {
+            hebrewWord: "שם",
+            englishWords: ["there"]
+        },
+        {
+            hebrewWord: "עכשיו",
+            englishWords: ["now"]
+        },
+        {
+            hebrewWord: "עברית",
+            englishWords: ["Hebrew"]
         }
     ]
 
