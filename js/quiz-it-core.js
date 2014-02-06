@@ -64,7 +64,12 @@ QuizIt = {
     },
 
     getCurrentAnswer: function () {
-        return this._getCurrentAnswer().join(", ");
+        var currentAnswer = this._getCurrentAnswer();
+        if (Array.isArray(currentAnswer)) {
+            return currentAnswer.join(", ");
+        } else {
+            return currentAnswer;
+        }
     },
 
     getCurrentPrompt: function () {
