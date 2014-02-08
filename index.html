@@ -5,41 +5,18 @@
     <title>QuizIt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/modernizr.js"></script>
-    <script src="js/jquery.js"></script>
-
-    <!-- QuizIt stuff -->
-    <script src="js/quiz-it-core.js"></script>
-    <script src="js/quiz-it-web.js"></script>
-    <script src="js/quizzes/hebrew-alphabet.js"></script>
-    <script src="js/quizzes/hebrew-vocab.js"></script>
 </head>
-<body onload="QuizItWeb.init()">
+<body>
 
     <div class="row">
         <div class="large-8 columns">
-            <div>
-                <span class="label js-progress-indicator"></span>
-                <span class="label js-right-count"></span>
-                <span class="label js-wrong-count"></span>
-            </div>
-            <br/>
-            <h4 class="js-message"></h4>
-            <h2 class="js-prompt">ש׳קרםכל</h2>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="row">
-        <div class="large-8 columns">
-            <input class="js-answer-input" type="text" placeholder="Enter the answer" autocorrect="off" autocapitalize="off" />
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="large-8 columns">
-            <h4 class="js-response"></h4>
+            <h3>Welcome to QuizIt!</h3>
+            <h5>To begin, select a quiz:</h5>
+            <ul>
+                <li><a href="quiz.html?quiz=hebrew-alphabet">Hebrew Alphabet</a></li>
+                <li><a href="quiz.html?quiz=hebrew-vocab1">Hebrew Vocab</a></li>
+                <li><a href="quiz.html?quiz=hebrew-vocab-hardcore">Hebrew Vocab Hardcore</a></li>
+            </ul>
         </div>
     </div>
 

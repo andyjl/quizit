@@ -30,6 +30,8 @@ QuizItWeb = {
 
         this.activeQuiz = QuizIt.getActiveQuiz();
 
+        document.title = "{0} - QuizIt".format(this.activeQuiz.description);
+
         // Set up some things.
         $(".js-message").html(QuizIt.getMessageText());
         this._update();

@@ -1,6 +1,7 @@
 QuizIt.addQuiz({
 
     name: 'hebrew-alphabet',
+    description: 'Hebrew Alphabet',
     messageText: 'What is the name of this letter?',
 
     promptField: 'letter',

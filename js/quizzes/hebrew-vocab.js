@@ -503,6 +503,7 @@ var hebrewVocabProblems = [
 QuizIt.addQuiz({
 
     name: 'hebrew-vocab-hardcore',
+    description: 'Hebrew Vocab Hardcore',
     messageText: 'Translate this Hebrew word into English',
 
     promptField: 'hebrewWord',
@@ -515,6 +516,7 @@ QuizIt.addQuiz({
 
 var vocabQuiz = {
     name: 'hebrew-vocab1',
+    description: 'Hebrew Vocab',
     messageText: 'Translate this Hebrew word into English',
 
     promptField: 'hebrewWord',
