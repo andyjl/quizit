@@ -7,6 +7,17 @@ QuizIt.addQuiz({
     promptField: 'letter',
     answerField: 'name',
 
+    reviewFields: [
+        {
+            title: 'Letter',
+            name: 'letter'
+        },
+        {
+            title: 'Name',
+            name: 'name'
+        }
+    ],
+
     problems: [
         { letter: 'א', name: ['Aleph', 'Alef'] },
         { letter: 'ב', name: 'Bet' },
