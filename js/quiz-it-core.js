@@ -72,6 +72,10 @@ QuizIt = {
         }
     },
 
+    getCurrentProblem: function () {
+        return this.currentProblem;
+    },
+
     getCurrentPrompt: function () {
         return this._getCurrentPrompt();
     },
@@ -150,8 +154,8 @@ QuizIt = {
 
 String.prototype.format = function() {
     var s = this;
-    for (var i = 0; i < arguments.length; i++) {       
-        var reg = new RegExp("\\{" + i + "\\}", "gm");             
+    for (var i = 0; i < arguments.length; i++) {
+        var reg = new RegExp("\\{" + i + "\\}", "gm");
         s = s.replace(reg, arguments[i]);
     }
 

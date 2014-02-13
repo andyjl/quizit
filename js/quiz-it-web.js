@@ -50,6 +50,8 @@ QuizItWeb = {
         var right;
         var message;
 
+        var currentProblem = QuizIt.getCurrentProblem();
+
         try {
             right = QuizIt.guess(answer);
         } catch (ex) {
@@ -58,6 +60,9 @@ QuizItWeb = {
 
         if (right === true) {
             message = "You got it right!";
+            if (this.activeQuiz.getRightMessage) {
+                message += " " + this.activeQuiz.getRightMessage(currentProblem);
+            }
         } else if (right === false) {
             message = "You got it wrong. The answer is '{0}'.".format(QuizIt.getCurrentAnswer());
         }

@@ -607,7 +607,6 @@ var vocabQuiz = {
     promptField: 'hebrewWord',
     answerField: 'englishWords',
 
-
     reviewFields: [
         {
             title: 'Unit',
@@ -626,6 +625,10 @@ var vocabQuiz = {
             name: 'englishWords'
         }
     ],
+
+    getRightMessage: function (problem) {
+        return "({0})".format(problem.transliteration);
+    },
 
     problems: hebrewVocabProblems
 
