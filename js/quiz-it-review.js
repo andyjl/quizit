@@ -43,6 +43,12 @@ QuizItReview = {
             row += '</tr>';
             $('.js-table').append(row);
         });
+
+        var cursive = this._getParameterByName("cursive");
+        if (cursive) {
+            var style = $("<style>.hebrew {font-family: 'guttman_yad-brush'; }</style>");
+            $('html > head').append(style);
+        }
     }
 
 };

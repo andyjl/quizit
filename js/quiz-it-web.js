@@ -37,6 +37,12 @@ QuizItWeb = {
         this._update();
 
         $(".js-answer-input").on("keydown", this.onAnswerInput_keydown);
+
+        var cursive = this._getParameterByName("cursive");
+        if (cursive) {
+            var style = $("<style>.hebrew {font-family: 'guttman_yad-brush'; }</style>");
+            $('html > head').append(style);
+        }
     },
 
     guess: function () {

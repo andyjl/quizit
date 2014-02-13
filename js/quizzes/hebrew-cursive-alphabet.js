@@ -1,7 +1,7 @@
 var alphaQuiz = {
 
-    name: 'hebrew-alphabet',
-    description: 'Hebrew Alphabet',
+    name: 'hebrew-cursive-alphabet',
+    description: 'Hebrew Alphabet (Cursive)',
     messageText: 'What is the name of this letter?',
 
     promptField: 'letter',
@@ -19,7 +19,7 @@ var alphaQuiz = {
     ],
 
     problems: [
-        { letter: 'א', name: ['Alef'] },
+        { letter: 'א', name: 'Alef' },
         { letter: 'ב', name: 'Bet' },
         { letter: 'ג', name: 'Gimel' },
         { letter: 'ד', name: 'Dalet' },

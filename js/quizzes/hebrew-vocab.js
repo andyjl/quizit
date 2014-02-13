@@ -221,7 +221,7 @@ var hebrewVocabProblems = [
     {
         unit: 2,
         hebrewWord: "אישה",
-        transliteration: "isha",
+        transliteration: "i<strong>sha</strong>",
         englishWords: "woman"
     },
 
@@ -598,7 +598,7 @@ var hebrewVocabProblems = [
     }
 ];
 
-QuizIt.addQuiz({
+var vocabQuiz = {
 
     name: 'hebrew-vocab',
     description: 'Hebrew Vocabulary',
@@ -629,9 +629,15 @@ QuizIt.addQuiz({
 
     problems: hebrewVocabProblems
 
-});
+};
 
-var vocabQuiz = {
+$.each(vocabQuiz.problems, function (index, problem) {
+    problem.hebrewWord = '<span class="hebrew">{0}</span>'.format(problem.hebrewWord);
+})
+
+QuizIt.addQuiz(vocabQuiz);
+
+var vocabTransQuiz = {
     name: 'hebrew-vocab-trans',
     description: 'Hebrew Vocabulary with Transliterations',
     messageText: 'Translate this Hebrew word into English',
@@ -644,10 +650,10 @@ var vocabQuiz = {
 
 // Set the problems - include transliteration.
 $.each(hebrewVocabProblems, function (index, problem) {
-    vocabQuiz.problems.push({
-        hebrewWord: "{0} ({1})".format(problem.hebrewWord, problem.transliteration),
+    vocabTransQuiz.problems.push({
+        hebrewWord: '<span class="hebrew">{0}</span> ({1})'.format(problem.hebrewWord, problem.transliteration),
         englishWords: problem.englishWords
     });
 });
 
-QuizIt.addQuiz(vocabQuiz);
+QuizIt.addQuiz(vocabTransQuiz);
