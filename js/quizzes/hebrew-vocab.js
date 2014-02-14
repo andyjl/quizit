@@ -222,7 +222,7 @@ var hebrewVocabProblems = [
         unit: 2,
         hebrewWord: "אישה",
         transliteration: "i<strong>sha</strong>",
-        englishWords: "woman"
+        englishWords: ["woman", "wife"]
     },
 
     // Unit 3
@@ -553,24 +553,274 @@ var hebrewVocabProblems = [
         englishWords: ["plural"]
     },
 
+    // Unit 5
+    {
+        unit: 5,
+        hebrewWord: "אנחנו",
+        transliteration: "a<strong>na</strong>xnu",
+        englishWords: ["we"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "אתם",
+        transliteration: "a<strong>tem</strong>, m",
+        englishWords: ["you"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "אתן",
+        transliteration: "a<strong>ten</strong>, f",
+        englishWords: ["you"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "הם",
+        transliteration: "hem, m",
+        englishWords: ["they"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "הן",
+        transliteration: "hen, f",
+        englishWords: ["they"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "גרים",
+        transliteration: "ga<strong>rim</strong>, m",
+        englishWords: ["live"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "גרות",
+        transliteration: "ga<strong>rot</strong>, f",
+        englishWords: ["live"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "לומדים",
+        transliteration: "lom<strong>dim</strong>, m",
+        englishWords: ["learn"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "לומדות",
+        transliteration: "lom<strong>dot</strong>, f",
+        englishWords: ["learn"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "הינה",
+        transliteration: "hin<strong>e</strong>",
+        englishWords: ["there is", "here is"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "מה שלומך",
+        transliteration: "ma shlom<strong>xa</strong>, m",
+        englishWords: ["how are you"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "מה שלומך",
+        transliteration: "ma shlom<strong>ex</strong>, f",
+        englishWords: ["how are you"]
+    },
+
+    // Unit 7
+    {
+        unit: 7,
+        hebrewWord: "חלב",
+        transliteration: "xa<strong>lav</strong>",
+        englishWords: ["milk"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מיץ",
+        transliteration: "mits",
+        englishWords: ["juice"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עיתון",
+        transliteration: "i<strong>ton</strong>",
+        englishWords: ["newspaper"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עיתונים",
+        transliteration: "ito<strong>nim</strong>",
+        englishWords: ["newspapers"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "אוכל",
+        transliteration: "o<strong>xel</strong>, m",
+        englishWords: ["eat"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "אוכלת",
+        transliteration: "o<strong>xe</strong>let, f",
+        englishWords: ["eat"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "אוכלים",
+        transliteration: "ox<strong>lim</strong>, m",
+        englishWords: ["eat"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "אוכלות",
+        transliteration: "ox<strong>lot</strong>, f",
+        englishWords: ["eat"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "קורא",
+        transliteration: "ko<strong>re</strong>, m",
+        englishWords: ["read"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "קוראת",
+        transliteration: "ko<strong>ret</strong>, f",
+        englishWords: ["read"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "קוראים",
+        transliteration: "kor<strong>'im</strong>, m",
+        englishWords: ["read"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "קוראות",
+        transliteration: "kor<strong>'ot</strong>, f",
+        englishWords: ["read"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עושה",
+        transliteration: "o<strong>se</strong>, m",
+        englishWords: ["do"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עושה",
+        transliteration: "o<strong>sa</strong>, f",
+        englishWords: ["do"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עושים",
+        transliteration: "o<strong>sim</strong>, m",
+        englishWords: ["do"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עושות",
+        transliteration: "o<strong>sot</strong>, f",
+        englishWords: ["do"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "שותה",
+        transliteration: "sho<strong>te</strong>, m",
+        englishWords: ["drink"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "שותה",
+        transliteration: "sho<strong>ta</strong>, f",
+        englishWords: ["drink"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "שותים",
+        transliteration: "sho<strong>tim</strong>, m",
+        englishWords: ["drink"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "שותות",
+        transliteration: "sho<strong>tot</strong>, f",
+        englishWords: ["drink"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מדבר",
+        transliteration: "meda<strong>ber</strong>, m",
+        englishWords: ["talk"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מדברת",
+        transliteration: "meda<strong>be</strong>ret, f",
+        englishWords: ["talk"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מדברים",
+        transliteration: "medab<strong>rim</strong>, m",
+        englishWords: ["talk"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מדברות",
+        transliteration: "medab<strong>rot</strong>, f",
+        englishWords: ["talk"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "על",
+        transliteration: "al",
+        englishWords: ["on", "about"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עם",
+        transliteration: "im",
+        englishWords: ["with"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "רק",
+        transliteration: "rak",
+        englishWords: ["only", "just"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "עברית",
+        transliteration: "iv<strong>rit</strong>",
+        englishWords: ["Hebrew"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "אנגלית",
+        transliteration: "ang<strong>lit</strong>",
+        englishWords: ["English"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "ספרדית",
+        transliteration: "sfara<strong>dit</strong>",
+        englishWords: ["Spanish"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "צרפתית",
+        transliteration: "tsarfa<strong>tit</strong>",
+        englishWords: ["French"]
+    },
+
     // Extras
     {
         unit: '',
         hebrewWord: "בטוח",
         transliteration: "betax",
         englishWords: ["sure"]
-    },
-    {
-        unit: '',
-        hebrewWord: "מה שלומך",
-        transliteration: "ma shlom<strong>xa</strong>, m",
-        englishWords: ["how are you"]
-    },
-    {
-        unit: '',
-        hebrewWord: "מה שלומך",
-        transliteration: "ma shlom<strong>ex</strong>, f",
-        englishWords: ["how are you"]
     },
     {
         unit: '',
@@ -592,9 +842,21 @@ var hebrewVocabProblems = [
     },
     {
         unit: '',
-        hebrewWord: "עברית",
-        transliteration: "iv<strong>rit</strong>",
-        englishWords: ["Hebrew"]
+        hebrewWord: "נכון",
+        transliteration: "na<strong>chon</strong>",
+        englishWords: ["right", "correct"]
+    },
+    {
+        unit: '',
+        hebrewWord: "יופי",
+        transliteration: "yofi",
+        englishWords: ["good", "nice"]
+    },
+    {
+        unit: '',
+        hebrewWord: "מה זה?",
+        transliteration: "ma ze?",
+        englishWords: "what is this"
     }
 ];
 
