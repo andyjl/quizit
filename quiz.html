@@ -32,12 +32,17 @@
         .touch .home-link {
             font-size: 13px;
         }
+
+        input.answer-input {
+            font-size: 1.2em;
+        }
     </style>
 
     <!-- QuizIt stuff -->
     <script src="js/quiz-it-core.js"></script>
     <script src="js/quiz-it-web.js"></script>
     <script src="js/quizzes/hebrew-alphabet.js"></script>
+    <script src="js/quizzes/hebrew-alphabet-reverse.js"></script>
     <script src="js/quizzes/hebrew-vocab.js"></script>
 </head>
 <body onload="QuizItWeb.init()">
@@ -60,7 +65,7 @@
 
     <div class="row">
         <div class="large-8 columns">
-            <input class="js-answer-input" type="text" placeholder="Enter the answer" autocorrect="off" autocapitalize="off" />
+            <input class="js-answer-input answer-input" type="text" placeholder="Enter the answer" autocorrect="off" autocapitalize="off" />
         </div>
     </div>
 

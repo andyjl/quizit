@@ -888,7 +888,7 @@ var vocabQuiz = {
         }
     ],
 
-    getRightMessage: function (problem) {
+    getAnswerMessage: function (problem) {
         return "({0})".format(problem.transliteration);
     },
 
@@ -903,6 +903,7 @@ $.each(vocabQuiz.problems, function (index, problem) {
 QuizIt.addQuiz(vocabQuiz);
 
 var vocabTransQuiz = {
+
     name: 'hebrew-vocab-trans',
     description: 'Hebrew Vocabulary with Transliterations',
     messageText: 'Translate this Hebrew word into English',
@@ -911,6 +912,7 @@ var vocabTransQuiz = {
     answerField: 'englishWords',
 
     problems: []
+
 };
 
 // Set the problems - include transliteration.
