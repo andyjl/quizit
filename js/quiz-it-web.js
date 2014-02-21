@@ -3,14 +3,6 @@ QuizItWeb = {
     /* Variables */
     activeQuiz: null,
 
-    /* Helpers */
-    _getParameterByName: function (name) {
-        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-            results = regex.exec(location.search);
-        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    },
-
     /* Event Handlers */
     onAnswerInput_keydown: function (e) {
         if (e.keyCode === 13) {
@@ -18,9 +10,13 @@ QuizItWeb = {
         }
     },
 
+    onVocabCheckbox_click: function (e) {
+        alert('times');
+    },
+
     /* Methods */
     init: function () {
-        var quizName = this._getParameterByName("quiz");
+        var quizName = QuizIt.getParameterByName("quiz");
 
         try {
             QuizIt.start(quizName);
@@ -38,7 +34,7 @@ QuizItWeb = {
 
         $(".js-answer-input").on("keydown", this.onAnswerInput_keydown);
 
-        var cursive = this._getParameterByName("cursive");
+        var cursive = QuizIt.getParameterByName("cursive");
         if (cursive) {
             var style = $("<style>.hebrew {font-family: 'guttman_yad-brush'; }</style>");
             $('html > head').append(style);

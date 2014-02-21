@@ -817,48 +817,61 @@ var hebrewVocabProblems = [
 
     // Extras
     {
-        unit: '',
+        unit: 'extra',
         hebrewWord: "בטוח",
         transliteration: "betax",
         englishWords: ["sure"]
     },
     {
-        unit: '',
+        unit: 'extra',
         hebrewWord: "תודה",
         transliteration: "to<strong>da</strong>",
         englishWords: ["thank you", "thanks"]
     },
     {
-        unit: '',
+        unit: 'extra',
         hebrewWord: "שם",
         transliteration: "sham",
         englishWords: ["there"]
     },
     {
-        unit: '',
+        unit: 'extra',
         hebrewWord: "עכשיו",
         transliteration: "ax<strong>shav</strong>",
         englishWords: ["now"]
     },
     {
-        unit: '',
+        unit: 'extra',
         hebrewWord: "נכון",
         transliteration: "na<strong>chon</strong>",
         englishWords: ["right", "correct"]
     },
     {
-        unit: '',
+        unit: 'extra',
         hebrewWord: "יופי",
         transliteration: "yofi",
         englishWords: ["good", "nice"]
     },
     {
-        unit: '',
+        unit: 'extra',
         hebrewWord: "מה זה?",
         transliteration: "ma ze?",
         englishWords: "what is this"
     }
 ];
+
+// Filter out the problems that don't match the passed in units.
+var unitsParam = QuizIt.getParameterByName("units");
+if (unitsParam) {
+    var newProblems = [];
+    var units = unitsParam.split(",");
+    $.each(hebrewVocabProblems, function (index, problem) {
+        if (units.indexOf(problem.unit.toString()) >= 0) {
+            newProblems.push(problem);
+        }
+    })
+    hebrewVocabProblems = newProblems;
+}
 
 var vocabQuiz = {
 

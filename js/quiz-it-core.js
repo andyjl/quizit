@@ -10,6 +10,14 @@ QuizIt = {
     wrongCount: 0,
     wrongProblems: [],
 
+    /* Helpers */
+    getParameterByName: function (name) {
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    },
+
     /* Private Methods */
     _getCurrentAnswer: function () {
         return this.currentProblem[this.activeQuiz.answerField];
