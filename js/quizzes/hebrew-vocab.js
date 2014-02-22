@@ -475,6 +475,84 @@ var hebrewVocabProblems = [
         transliteration: "ra me'<strong>od</strong>",
         englishWords: ["very bad"]
     },
+    {
+        unit: 3,
+        hebrewWord: "כותב",
+        transliteration: "kotev",
+        englishWords: ["write"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "מספר",
+        transliteration: "mispar",
+        englishWords: ["number"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "מוכר",
+        transliteration: "moxer",
+        englishWords: ["clerk"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "שם",
+        transliteration: "sham",
+        englishWords: ["there"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "עכשיו",
+        transliteration: "ax<strong>shav</strong>",
+        englishWords: ["now"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "חיפה",
+        transliteration: "xeifa",
+        englishWords: ["Haifa"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "ישראל",
+        transliteration: "yisra'el",
+        englishWords: ["Israel"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "ירושלים",
+        transliteration: "yrushalayim",
+        englishWords: ["Jerusalem"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "אנגליה",
+        transliteration: "angliya",
+        englishWords: ["England"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "לונדון",
+        transliteration: "london",
+        englishWords: ["London"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "אינטרנט",
+        transliteration: "internet",
+        englishWords: ["internet"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "פילוסופיה",
+        transliteration: "filosofya",
+        englishWords: "philosophy"
+    },
+    {
+        unit: 3,
+        hebrewWord: "ביולוגיה",
+        transliteration: "biologya",
+        englishWords: "biology"
+    },
 
     // Unit 4
     {
@@ -674,6 +752,20 @@ var hebrewVocabProblems = [
         hebrewWord: "רבים",
         transliteration: "rabim",
         englishWords: ["plural"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "הר",
+        transliteration: "har",
+        englishWords: ["mountain"],
+        number: Numbers.singular
+    },
+    {
+        unit: 4,
+        hebrewWord: "הרים",
+        transliteration: "harim",
+        englishWords: ["mountains"],
+        number: Numbers.plural
     },
 
     // Unit 5
@@ -1009,18 +1101,6 @@ var hebrewVocabProblems = [
         hebrewWord: "תודה",
         transliteration: "to<strong>da</strong>",
         englishWords: ["thank you", "thanks"]
-    },
-    {
-        unit: 'extra',
-        hebrewWord: "שם",
-        transliteration: "sham",
-        englishWords: ["there"]
-    },
-    {
-        unit: 'extra',
-        hebrewWord: "עכשיו",
-        transliteration: "ax<strong>shav</strong>",
-        englishWords: ["now"]
     },
     {
         unit: 'extra',
