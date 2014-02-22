@@ -697,7 +697,7 @@ var hebrewVocabProblems = [
     {
         unit: 4,
         hebrewWord: "זה",
-        transliteration: "ze, m",
+        transliteration: "ze",
         englishWords: ["this"],
         gender: Genders.masculine,
         number: Numbers.singular
@@ -705,7 +705,7 @@ var hebrewVocabProblems = [
     {
         unit: 4,
         hebrewWord: "זאת",
-        transliteration: "zot, f",
+        transliteration: "zot",
         englishWords: ["this"],
         gender: Genders.feminine,
         number: Numbers.singular
