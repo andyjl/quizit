@@ -1,6 +1,7 @@
 QuizItHome = {
 
     vocabLink: "quiz.html?quiz=hebrew-vocab&units={0}",
+    vocabReverseLink: "quiz.html?quiz=hebrew-vocab-reverse&units={0}",
     vocabTransLink: "quiz.html?quiz=hebrew-vocab-trans&units={0}",
 
     onVocabCheckbox_click: function (e) {
@@ -45,6 +46,7 @@ QuizItHome = {
     updateVocabLinks: function () {
         var unitsStr = this.getIncludedUnits();
         $(".js-vocab-link").attr("href", this.vocabLink.format(unitsStr));
+        $(".js-vocab-reverse-link").attr("href", this.vocabReverseLink.format(unitsStr));
         $(".js-vocab-trans-link").attr("href", this.vocabTransLink.format(unitsStr));
         this.saveVocabLinks();
     }
