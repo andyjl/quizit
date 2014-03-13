@@ -71,7 +71,7 @@ var hebrewVocabProblems = [
     },
     {
         unit: 1,
-        hebrewWord: "ו..",
+        hebrewWord: "ו",
         transliteration: "ve",
         englishWords: ["and"]
     },
@@ -766,6 +766,62 @@ var hebrewVocabProblems = [
         transliteration: "harim",
         englishWords: ["mountains"],
         number: Numbers.plural
+    },
+    {
+        unit: 4,
+        hebrewWord: "תלמידים",
+        transliteration: "talmidim",
+        englishWords: ["students"],
+        number: Numbers.plural,
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "תלמידות",
+        transliteration: "talmidot",
+        englishWords: ["students"],
+        number: Numbers.plural,
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "ילדים",
+        transliteration: "yeladim",
+        englishWords: ["boys"],
+        number: Numbers.plural,
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "ילדות",
+        transliteration: "yeladot",
+        englishWords: ["girls"],
+        number: Numbers.plural,
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "מורים",
+        transliteration: "morim",
+        englishWords: ["teachers"],
+        number: Numbers.plural,
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "מורות",
+        transliteration: "morot",
+        englishWords: ["teachers"],
+        number: Numbers.plural,
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "עוגות",
+        transliteration: "ugot",
+        englishWords: ["cakes"],
+        number: Numbers.plural,
+        gender: Genders.feminine
     },
 
     // Unit 5
