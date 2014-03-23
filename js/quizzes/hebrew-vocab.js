@@ -1286,7 +1286,11 @@ var vocabReverseQuiz = {
     promptField: 'englishWord',
     answerField: 'hebrewWord',
 
-    problems: []
+    problems: [],
+
+    getAnswerMessage: function (problem) {
+        return "({0})".format(problem.transliteration);
+    }
 
 };
 
