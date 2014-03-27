@@ -489,12 +489,6 @@ var hebrewVocabProblems = [
     },
     {
         unit: 3,
-        hebrewWord: "מוכר",
-        transliteration: "moxer",
-        englishWords: ["clerk"]
-    },
-    {
-        unit: 3,
         hebrewWord: "שם",
         transliteration: "sham",
         englishWords: ["there"]
@@ -1145,18 +1139,256 @@ var hebrewVocabProblems = [
         englishWords: ["French"]
     },
 
+    // Unit 8
+    {
+        unit: 8,
+        hebrewWord: "אוהב",
+        transliteration: "o<strong>hev</strong>",
+        englishWords: ["love", "like"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לאהוב",
+        transliteration: "le'e<strong>hov</strong>",
+        englishWords: ["to love", "to like"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לאכול",
+        transliteration: "le'e<strong>xol</strong>",
+        englishWords: ["to eat"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "חושב",
+        transliteration: "xo<strong>shev</strong>",
+        englishWords: ["think"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לחשוב",
+        transliteration: "lax<strong>shov</strong>",
+        englishWords: ["to think"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לכתוב",
+        transliteration: "lix<strong>tov</strong>",
+        englishWords: ["to write"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לקרוא",
+        transliteration: "lik<strong>ro</strong>",
+        englishWords: ["to read"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "שואל",
+        transliteration: "sho'<strong>el</strong>",
+        englishWords: ["ask"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לשאול",
+        transliteration: "lish'<strong>ol</strong>",
+        englishWords: ["to ask"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "יודע",
+        transliteration: "yo<strong>de</strong>'a",
+        englishWords: ["know"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לדעת",
+        transliteration: "la<strong>da</strong>'at",
+        englishWords: ["to know"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לעשות",
+        transliteration: "la'a<strong>sot</strong>",
+        englishWords: ["to do"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "רוצה",
+        transliteration: "ro<strong>tse</strong>",
+        englishWords: ["want"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לרצות",
+        transliteration: "lirtsot",
+        englishWords: ["to want"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לשתות",
+        transliteration: "lishtot",
+        englishWords: ["to drink"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לדבר",
+        transliteration: "ledaber",
+        englishWords: ["to talk"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "לגור",
+        transliteration: "la<strong>gur</strong>",
+        englishWords: ["to live"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "מבין",
+        transliteration: "me<strong>vin</strong>",
+        englishWords: ["understand"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 8,
+        hebrewWord: "להבין",
+        transliteration: "lehavin",
+        englishWords: ["to understand"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+
+    // Unit 9
+    {
+        unit: 9,
+        hebrewWord: "מוכר",
+        transliteration: "mo<strong>xer</strong>",
+        englishWords: ["clerk", "sales person"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 9,
+        hebrewWord: "מוכרת",
+        transliteration: "mo<strong>xe</strong>ret",
+        englishWords: ["clerk", "sales person"],
+        gender: Genders.feminine,
+        number: Numbers.singular
+    },
+    {
+        unit: 9,
+        hebrewWord: "סוכר",
+        transliteration: "su<strong>kar</strong>",
+        englishWords: ["sugar"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "אומר",
+        transliteration: "o<strong>mer</strong>",
+        englishWords: ["say"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "לומר",
+        transliteration: "lo<strong>mar</strong>",
+        englishWords: ["to say"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "בלי",
+        transliteration: "bli",
+        englishWords: ["without"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "הרבה",
+        transliteration: "har<strong>be</strong>",
+        englishWords: ["much", "a lot", "many"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "קצת",
+        transliteration: "ktsat",
+        englishWords: ["a little"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "בבקשה",
+        transliteration: "be-vaka<strong>sha</strong>",
+        englishWords: ["please", "welcome"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "סליחה",
+        transliteration: "sli<strong>xa</strong>",
+        englishWords: ["excuse me", "sorry", "forgive me"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "אולי",
+        transliteration: "u<strong>lay</strong>",
+        englishWords: ["maybe"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "עוד משהו",
+        transliteration: "od mashe<strong>hu</strong>?",
+        englishWords: ["Anything else"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "רק רגע",
+        transliteration: "rak <strong>re</strong>ga",
+        englishWords: ["just a moment"]
+    },
+    {
+        unit: 9,
+        hebrewWord: "תודה",
+        transliteration: "to<strong>da</strong>",
+        englishWords: ["thank you", "thanks"]
+    },
+
     // Extras
     {
         unit: 'extra',
         hebrewWord: "בטוח",
         transliteration: "betax",
         englishWords: ["sure"]
-    },
-    {
-        unit: 'extra',
-        hebrewWord: "תודה",
-        transliteration: "to<strong>da</strong>",
-        englishWords: ["thank you", "thanks"]
     },
     {
         unit: 'extra',
