@@ -1400,13 +1400,61 @@ var hebrewVocabProblems = [
         unit: 'extra',
         hebrewWord: "יופי",
         transliteration: "yofi",
-        englishWords: ["good", "nice"]
+        englishWords: ["nice", "good"]
     },
     {
         unit: 'extra',
-        hebrewWord: "מה זה?",
+        hebrewWord: "מה זה",
         transliteration: "ma ze?",
         englishWords: "what is this"
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "הדשות",
+        transliteration: "hada<strong>shot</strong>",
+        englishWords: ["news", "tidings"]
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "רומן",
+        transliteration: "ro<strong>man</strong>",
+        englishWords: ["novel", "romance"]
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "בוס",
+        transliteration: "bos",
+        englishWords: ["boss"]
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "אנדרו",
+        transliteration: "andru",
+        englishWords: ["Andrew"]
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "קנדה",
+        transliteration: "kanada",
+        englishWords: ["Canada"]
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "משפחה",
+        transliteration: "mishpacha",
+        englishWords: ["family", "household", "clan", "kin"]
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "ארצות הברית",
+        transliteration: "artsot habrit",
+        englishWords: ["United States", "America", "USA"]
+    },
+    {
+        unit: 'extra',
+        hebrewWord: "ישוע",
+        transliteration: "Yeshua",
+        englishWords: ["Yeshua", "Jesus"]
     }
 ];
 
