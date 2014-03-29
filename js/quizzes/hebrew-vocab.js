@@ -264,7 +264,7 @@ var hebrewVocabProblems = [
     {
         unit: 2,
         hebrewWord: "אוכל",
-        transliteration: "<strong>o</strong>xel",
+        transliteration: "<strong>o</strong>xel (noun)",
         englishWords: ["food"],
         gender: Genders.masculine,
         number: Numbers.singular
@@ -939,7 +939,7 @@ var hebrewVocabProblems = [
     {
         unit: 7,
         hebrewWord: "אוכל",
-        transliteration: "o<strong>xel</strong>",
+        transliteration: "o<strong>xel</strong> (verb)",
         englishWords: ["eat"],
         gender: Genders.masculine,
         number: Numbers.singular
