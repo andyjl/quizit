@@ -1603,3 +1603,34 @@ $.each(hebrewVocabProblems, function (index, problem) {
 });
 
 QuizIt.addQuiz(vocabReverseQuiz);
+
+
+var vocabSameQuiz = {
+
+    name: 'hebrew-vocab-same',
+    description: 'Hebrew Vocabulary',
+    messageText: 'Type this word in Hebrew',
+
+    promptField: 'hebrewWordWithEnglih',
+    answerField: 'hebrewWord',
+
+    problems: [],
+
+};
+
+// Set the problems - include English word.
+$.each(hebrewVocabProblems, function (index, problem) {
+    var englishWord;
+    if (Array.isArray(problem.englishWords)) {
+        englishWord = problem.englishWords[0];
+    } else {
+        englishWord = problem.englishWords;
+    }
+
+    vocabSameQuiz.problems.push({
+        hebrewWordWithEnglih: '<span class="hebrew">{0}</span> ({1})'.format(problem.hebrewWord, englishWord),
+        hebrewWord: problem.hebrewWord
+    });
+});
+
+QuizIt.addQuiz(vocabSameQuiz);
