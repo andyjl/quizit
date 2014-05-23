@@ -484,8 +484,9 @@ var hebrewVocabProblems = [
     {
         unit: 3,
         hebrewWord: "מספר",
-        transliteration: "mispar",
-        englishWords: ["number"]
+        transliteration: "mis<strong>par</strong>",
+        englishWords: ["number"],
+        gender: Genders.feminine
     },
     {
         unit: 3,
@@ -1381,6 +1382,134 @@ var hebrewVocabProblems = [
         hebrewWord: "תודה",
         transliteration: "to<strong>da</strong>",
         englishWords: ["thank you", "thanks"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "אולפן",
+        transliteration: "Ul<strong>pan</strong>",
+        englishWords: ["Ulpan"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "טעות",
+        transliteration: "ta'<strong>ut</strong>",
+        englishWords: ["mistake"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "טעויות",
+        transliteration: "ta'u<strong>yo</strong>t",
+        englishWords: ["mistakes"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מודיעין",
+        transliteration: "modi'<strong>in</strong>",
+        englishWords: ["information", "telephone directory"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "רחוב",
+        transliteration: "re<strong>xov</strong>",
+        englishWords: ["street"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "רחובות",
+        transliteration: "rexov<strong>ot</strong>",
+        englishWords: ["streets"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "סופר",
+        transliteration: "so<strong>fer</strong>",
+        englishWords: ["count"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 10,
+        hebrewWord: "לספור",
+        transliteration: "lis<strong>por</strong>",
+        englishWords: ["to count"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "נייד",
+        transliteration: "na<strong>yad</strong>",
+        englishWords: ["mobile"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "אפס",
+        transliteration: "<strong>e</strong>fes",
+        englishWords: ["zero", "0"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "אחת",
+        transliteration: "a<strong>xat</strong>",
+        englishWords: ["one", "1"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "שתיים",
+        transliteration: "sh<strong>ta</strong>yim",
+        englishWords: ["two", "2"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "שלוש",
+        transliteration: "sha<strong>losh</strong>",
+        englishWords: ["three", "3"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "ארבע",
+        transliteration: "<strong>ar</strong>ba",
+        englishWords: ["four", "4"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "חמש",
+        transliteration: "xa<strong>mesh</strong>",
+        englishWords: ["five", "5"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "שש",
+        transliteration: "shesh",
+        englishWords: ["six", "6"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "שבע",
+        transliteration: "<strong>she</strong>va",
+        englishWords: ["seven", "7"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "שמונה",
+        transliteration: "<strong>shmo</strong>ne",
+        englishWords: ["eight", "8"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "תשע",
+        transliteration: "<strong>te</strong>sha",
+        englishWords: ["nine", "9"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "עשר",
+        transliteration: "<strong>e</strong>ser",
+        englishWords: ["ten", "10"]
     },
 
     // Extras
