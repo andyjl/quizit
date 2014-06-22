@@ -1511,6 +1511,195 @@ var hebrewVocabProblems = [
         transliteration: "<strong>e</strong>ser",
         englishWords: ["ten", "10"]
     },
+    {
+        unit: 11,
+        hebrewWord: "בוקר",
+        transliteration: "<strong>bo</strong>ker",
+        englishWords: ["morning"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "לילה",
+        transliteration: "<strong>lay</strong>la",
+        englishWords: ["night"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "לילות",
+        transliteration: "leyl<strong>ot</strong>",
+        englishWords: ["nights"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "עבודה",
+        transliteration: "avo<strong>da</strong> (noun)",
+        englishWords: ["work"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "ערב",
+        transliteration: "<strong>e</strong>rev",
+        englishWords: ["evening"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "צהריים",
+        transliteration: "tsoho<strong>ra</strong>yim",
+        englishWords: ["noon", "afternoon"],
+        gender: Genders.masculine,
+        number: Numbers.plural
+    },
+    {
+        unit: 11,
+        hebrewWord: "שעה",
+        transliteration: "sha'<strong>a</strong>",
+        englishWords: ["hour"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "להיות",
+        transliteration: "lihi<strong>yot</strong>",
+        englishWords: ["to be"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "עובד",
+        transliteration: "o<strong>ved</strong> (verb)",
+        englishWords: ["work"],
+        gender: Genders.masculine,
+        number: Numbers.singular
+    },
+    {
+        unit: 11,
+        hebrewWord: "לעבוד",
+        transliteration: "la'a<strong>vod</strong>",
+        englishWords: ["to work"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "אחת עשרה",
+        transliteration: "a<strong>xat</strong> es<strong>re</strong>",
+        englishWords: ["eleven"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "השעה",
+        transliteration: "ha-sha'<strong>a</strong>",
+        englishWords: ["The time is"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "חצי",
+        transliteration: "<strong>xe</strong>tsi",
+        englishWords: ["half"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מה השעה",
+        transliteration: "ma ha-sha'<strong>a</strong>",
+        englishWords: ["What time is it"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "רבע",
+        transliteration: "<strong>re</strong>va",
+        englishWords: ["quarter"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "שתים עשרה",
+        transliteration: "shtem es<strong>re</strong>",
+        englishWords: ["twelve"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מתי",
+        transliteration: "ma<strong>tay</strong>",
+        englishWords: ["when"]
+    },
+    {
+        unit: 12,
+        hebrewWord: "מלצר",
+        transliteration: "mel<strong>tsar</strong>",
+        englishWords: ["waiter"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 12,
+        hebrewWord: "מלצרית",
+        transliteration: "meltsa<strong>rit</strong>",
+        englishWords: ["waitress"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 12,
+        hebrewWord: "מסעדה",
+        transliteration: "mis'a<strong>da</strong>",
+        englishWords: ["restaurant"]
+    },
+    {
+        unit: 12,
+        hebrewWord: "גדול",
+        transliteration: "ga<strong>dol</strong>",
+        englishWords: ["big", "large"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 12,
+        hebrewWord: "גדולה",
+        transliteration: "gdo<strong>la</strong>",
+        englishWords: ["big", "large"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 12,
+        hebrewWord: "קטן",
+        transliteration: "ka<strong>tan</strong>",
+        englishWords: ["small"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 12,
+        hebrewWord: "קטנה",
+        transliteration: "kta<strong>na</strong>",
+        englishWords: ["small"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 12,
+        hebrewWord: "מצטער",
+        transliteration: "mits'ta'<strong>er</strong>",
+        englishWords: ["sorry"]
+    },
+    {
+        unit: 12,
+        hebrewWord: "אבל",
+        transliteration: "a<strong>val</strong>",
+        englishWords: ["but"]
+    },
+    {
+        unit: 12,
+        hebrewWord: "אז",
+        transliteration: "az",
+        englishWords: ["so"]
+    },
+    {
+        unit: 12,
+        hebrewWord: "יש",
+        transliteration: "yesh",
+        englishWords: ["there is", "there are"]
+    },
+    {
+        unit: 12,
+        hebrewWord: "אין",
+        transliteration: "ein",
+        englishWords: ["there is no", "there are no"]
+    },
 
     // Extras
     {
