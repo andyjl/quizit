@@ -1584,7 +1584,13 @@ var hebrewVocabProblems = [
         unit: 11,
         hebrewWord: "אחת עשרה",
         transliteration: "a<strong>xat</strong> es<strong>re</strong>",
-        englishWords: ["eleven"]
+        englishWords: ["eleven", "11"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "שתים עשרה",
+        transliteration: "shtem es<strong>re</strong>",
+        englishWords: ["twelve", "12"]
     },
     {
         unit: 11,
@@ -1602,19 +1608,13 @@ var hebrewVocabProblems = [
         unit: 11,
         hebrewWord: "מה השעה",
         transliteration: "ma ha-sha'<strong>a</strong>",
-        englishWords: ["What time is it"]
+        englishWords: ["What time is it", "What is the time"]
     },
     {
         unit: 11,
         hebrewWord: "רבע",
         transliteration: "<strong>re</strong>va",
         englishWords: ["quarter"]
-    },
-    {
-        unit: 11,
-        hebrewWord: "שתים עשרה",
-        transliteration: "shtem es<strong>re</strong>",
-        englishWords: ["twelve"]
     },
     {
         unit: 11,
