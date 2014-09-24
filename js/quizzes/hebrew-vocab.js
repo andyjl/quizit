@@ -656,8 +656,159 @@ var hebrewVocabProblems = [
         hebrewWord: "תרגיש טוב",
         transliteration: "tar<strong>gish</strong> tov",
         englishWords: ["get well"]
-    }
+    },
 
+    {
+        unit: 3,
+        hebrewWord: "אוטובוס",
+        transliteration: "<strong>o</strong>tobus",
+        englishWords: ["bus"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 3,
+        hebrewWord: "חיים",
+        transliteration: "xa<strong>yim</strong>",
+        englishWords: ["life"],
+        gender: Genders.masculine,
+        number: Numbers.plural
+    },
+    {
+        unit: 3,
+        hebrewWord: "בוחר",
+        transliteration: "bo<strong>xer</strong>",
+        englishWords: ["choose"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 3,
+        hebrewWord: "בוחרת",
+        transliteration: "bo<strong>xe</strong>ret",
+        englishWords: ["choose"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 3,
+        hebrewWord: "חוזר",
+        transliteration: "xo<strong>zer</strong>",
+        englishWords: ["return"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "חולם",
+        transliteration: "xo<strong>lem</strong>",
+        englishWords: ["dream"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "לובש",
+        transliteration: "lo<strong>vesh</strong>",
+        englishWords: ["wear"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "מוצא",
+        transliteration: "mo<strong>tse</strong>",
+        englishWords: ["find"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "נוסע",
+        transliteration: "no<strong>se'</strong>a",
+        englishWords: ["ride", "go"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "סוגר",
+        transliteration: "so<strong>ger</strong>",
+        englishWords: ["close"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "סופר",
+        transliteration: "so<strong>fer</strong>",
+        englishWords: ["count"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "עוזר",
+        transliteration: "o<strong>zer</strong>",
+        englishWords: ["help"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "עומד",
+        transliteration: "o<strong>med</strong>",
+        englishWords: ["stand"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "פותח",
+        transliteration: "po<strong>te</strong>'ax",
+        englishWords: ["open"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "פותח",
+        transliteration: "meyu<strong>xad</strong>",
+        englishWords: ["special"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 3,
+        hebrewWord: "מיוחדת",
+        transliteration: "meyu<strong>xe</strong>det",
+        englishWords: ["special"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 3,
+        hebrewWord: "קל",
+        transliteration: "kal",
+        englishWords: ["easy"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "קשה",
+        transliteration: "ka<strong>she</strong>",
+        englishWords: ["difficult", "hard"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "בטח",
+        transliteration: "<strong>be</strong>tax",
+        englishWords: ["sure"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "כל",
+        transliteration: "kol",
+        englishWords: ["every"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "מספיק",
+        transliteration: "mas<strong>pix</strong>",
+        englishWords: ["enough"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "פה",
+        transliteration: "po",
+        englishWords: ["here"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "שם",
+        transliteration: "sham",
+        englishWords: ["there"]
+    },
+    {
+        unit: 3,
+        hebrewWord: "למשל",
+        transliteration: "lema<strong>shal</strong>",
+        englishWords: ["for example"]
+    }
 ];
 
 // Filter out the problems that don't match the passed in units.
