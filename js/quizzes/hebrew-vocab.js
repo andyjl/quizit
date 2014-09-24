@@ -289,7 +289,7 @@ var hebrewVocabProblems = [
     {
         unit: 2,
         hebrewWord: "מרפאה",
-        transliteration: "mirpa'a",
+        transliteration: "mirpa'<strong>a</strong>",
         englishWords: ["clinic"],
         gender: Genders.feminine
     },
@@ -749,7 +749,7 @@ var hebrewVocabProblems = [
     },
     {
         unit: 3,
-        hebrewWord: "פותח",
+        hebrewWord: "מיוחד",
         transliteration: "meyu<strong>xad</strong>",
         englishWords: ["special"],
         gender: Genders.masculine
