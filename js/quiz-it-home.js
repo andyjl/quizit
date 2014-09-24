@@ -25,6 +25,12 @@ QuizItHome = {
         $(".js-vocab-checkbox").click(this.onVocabCheckbox_click);
         this.restoreVocabLinks();
         this.updateVocabLinks();
+
+        if (QuizIt.getParameterByName("showHidden")) {
+            $.each($(".hidden"), function (index, element) {
+                element.classList.remove("hidden");
+            });
+        }
     },
 
     restoreVocabLinks: function () {
