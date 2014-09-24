@@ -53,6 +53,12 @@
         .quiz-list a.alphabet:hover {
             background: #2461B8;
         }
+        .quiz-list a.greek-alphabet {
+            background: #9E0000;
+        }
+        .quiz-list a.greek-alphabet:hover {
+            background: #850000;
+        }
         .quiz-list a.vocab {
             background: #009e0f;
         }
@@ -93,6 +99,14 @@
             </ul>
             <ul class="quiz-list">
                 <li>
+                    <a class="greek-alphabet" href="quiz.html?quiz=greek-alphabet">
+                        <strong>Greek Alphabet</strong><br>
+                        <p>Greek --> English</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="quiz-list">
+                <li>
                     <a class="vocab js-vocab-link" href="">
                         <strong>Hebrew Vocabulary</strong><br>
                         <p>Hebrew --> English</p>
@@ -116,23 +130,18 @@
                         <p>Hebrew --> Hebrew</p>
                     </a>
                 </li>
+                <li>
+                    <a class="vocab" href="quiz.html?quiz=hebrew-tech-vocab">
+                        <strong>Hebrew Vocabulary</strong><br>
+                        <p>Technology</p>
+                    </a>
+                </li>
             </ul>
             <h5>Vocabulary Words:</h5>
             <form>
                 <input id="unit1" class="js-vocab-checkbox" unit="1" type="checkbox"/><label for="unit1">Unit 1</label><br>
-                <input id="unit2" class="js-vocab-checkbox" unit="2" type="checkbox"/><label for="unit2">Unit 2</label><br>
-                <input id="unit3" class="js-vocab-checkbox" unit="3" type="checkbox"/><label for="unit3">Unit 3</label><br>
-                <input id="unit4" class="js-vocab-checkbox" unit="4" type="checkbox"/><label for="unit4">Unit 4</label><br>
-                <input id="unit5" class="js-vocab-checkbox" unit="5" type="checkbox"/><label for="unit5">Unit 5</label><br>
-                <input id="unit7" class="js-vocab-checkbox" unit="7" type="checkbox"/><label for="unit7">Unit 7</label><br>
-                <input id="unit8" class="js-vocab-checkbox" unit="8" type="checkbox"/><label for="unit8">Unit 8</label><br>
-                <input id="unit9" class="js-vocab-checkbox" unit="9" type="checkbox"/><label for="unit9">Unit 9</label><br>
-                <input id="unit10" class="js-vocab-checkbox" unit="10" type="checkbox"/><label for="unit10">Unit 10</label><br>
-                <input id="unit11" class="js-vocab-checkbox" unit="11" type="checkbox"/><label for="unit11">Unit 11</label><br>
-                <input id="unit12" class="js-vocab-checkbox" unit="12" type="checkbox"/><label for="unit12">Unit 12</label><br>
-                <input id="unit13" class="js-vocab-checkbox" unit="13" type="checkbox"/><label for="unit13">Unit 13</label><br>
-                <input id="unit14" class="js-vocab-checkbox" unit="14" type="checkbox"/><label for="unit14">Unit 14</label><br>
-                <input id="extra" class="js-vocab-checkbox" unit="extra" type="checkbox"><label for="extra">Extra Words</label><br>
+<!--                 <input id="unit2" class="js-vocab-checkbox" unit="2" type="checkbox"/><label for="unit2">Unit 2</label><br>
+                <input id="unit3" class="js-vocab-checkbox" unit="3" type="checkbox"/><label for="unit3">Unit 3</label><br> -->
             </form>
             <h4>Review Quiz Answers</h4>
             <ul class="quiz-list">
@@ -142,8 +151,18 @@
                     </a>
                 </li>
                 <li>
+                    <a class="greek-alphabet" href="review.html?quiz=greek-alphabet">
+                        <strong>Greek Alphabet</strong>
+                    </a>
+                </li>
+                <li>
                     <a class="vocab" href="review.html?quiz=hebrew-vocab">
                         <strong>Hebrew Vocabulary</strong>
+                    </a>
+                </li>
+                <li>
+                    <a class="vocab" href="review.html?quiz=hebrew-tech-vocab">
+                        <strong>Hebrew Tech</strong>
                     </a>
                 </li>
             </ul>
