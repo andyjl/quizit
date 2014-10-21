@@ -2876,7 +2876,7 @@ var hebrewVocabProblems = [
         unit: 17,
         hebrewWord: "שקט",
         transliteration: "sheket",
-        englishWords: ["quiet"]
+        englishWords: ["silence", "quiet"]
     },
     {
         unit: 17,
@@ -3410,7 +3410,7 @@ $.each(hebrewVocabProblems, function (index, problem) {
 
 var vocabQuiz = {
 
-    name: 'hebrew-vocab',
+    name: 'hebrew-vocab-v1',
     description: 'Hebrew Vocabulary',
     messageText: 'Translate this Hebrew word into English',
 
@@ -3453,7 +3453,7 @@ QuizIt.addQuiz(vocabQuiz);
 
 var vocabTransQuiz = {
 
-    name: 'hebrew-vocab-trans',
+    name: 'hebrew-vocab-v1-trans',
     description: 'Hebrew Vocabulary with Transliterations',
     messageText: 'Translate this Hebrew word into English',
 
@@ -3477,7 +3477,7 @@ QuizIt.addQuiz(vocabTransQuiz);
 
 var vocabReverseQuiz = {
 
-    name: 'hebrew-vocab-reverse',
+    name: 'hebrew-vocab-v1-reverse',
     description: 'Hebrew Vocabulary',
     messageText: 'Translate this word into Hebrew',
 
@@ -3525,7 +3525,7 @@ QuizIt.addQuiz(vocabReverseQuiz);
 
 var vocabSameQuiz = {
 
-    name: 'hebrew-vocab-same',
+    name: 'hebrew-vocab-v1-same',
     description: 'Hebrew Vocabulary',
     messageText: 'Type this word in Hebrew',
 
