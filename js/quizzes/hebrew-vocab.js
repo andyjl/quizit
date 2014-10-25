@@ -819,7 +819,7 @@ var hebrewVocabProblems = [
     {
         unit: 'travel',
         hebrewWord: 'מה קורה',
-        transliteration: 'mah kor<strong>eh</strong?',
+        transliteration: 'mah kor<strong>eh</strong>',
         englishWords: ['What\'s happening']
     },
     {
