@@ -808,6 +808,271 @@ var hebrewVocabProblems = [
         hebrewWord: "למשל",
         transliteration: "lema<strong>shal</strong>",
         englishWords: ["for example"]
+    },
+
+    {
+        unit: 'travel',
+        hebrewWord: 'אחר צהריים',
+        transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
+        englishWords: ['Good Afternoon']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'מה קורה',
+        transliteration: 'mah kor<strong>eh</strong?',
+        englishWords: ['What\'s happening']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'איך קוראים לך',
+        transliteration: 'ech kor<strong>im</strong> lexah?',
+        englishWords: ['What is your name']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'כמה זה',
+        transliteration: 'kamah',
+        englishWords: ['How much']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'מזומן',
+        transliteration: 'mezu<strong>man</strong>',
+        englishWords: ['Cash']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'אשראי',
+        transliteration: 'ash<strong>ra</strong>’i',
+        englishWords: ['Credit']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'מאה',
+        transliteration: '<strong>me</strong>’ah',
+        englishWords: ['100']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'אלף',
+        transliteration: '<strong>el</strong>ef',
+        englishWords: ['1000']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'יותר',
+        transliteration: 'yo<strong>ter</strong>',
+        englishWords: ['more']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'פחות',
+        transliteration: 'pa<strong>xot</strong>',
+        englishWords: ['less']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'חודש',
+        transliteration: '<strong>xo</strong>desh',
+        englishWords: ['month']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'שנה',
+        transliteration: 'sha<strong>nah</strong>',
+        englishWords: ['year']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'שעה',
+        transliteration: 'sha`<strong>ah</strong>',
+        englishWords: ['hour']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'דקה',
+        transliteration: 'da<strong>qah</strong>',
+        englishWords: ['minute']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'שדה התעופה',
+        transliteration: 'sde hate`u<strong>fah</strong>',
+        englishWords: ['airport']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'מלון',
+        transliteration: 'ma<strong>lon</strong>',
+        englishWords: ['hotel']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'רחוב',
+        transliteration: 're<strong>xov</strong>',
+        englishWords: ['street']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'שמאל',
+        transliteration: 'smol',
+        englishWords: ['left']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'ימין',
+        transliteration: 'ya<strong>min</strong>',
+        englishWords: ['right']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'ישר',
+        transliteration: 'ya<strong>shar</strong>',
+        englishWords: ['straight ahead']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'לכיוון',
+        transliteration: 'leki<strong>vun</strong>',
+        englishWords: ['towards']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'אחרי',
+        transliteration: 'ax<strong>rey</strong>',
+        englishWords: ['past']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'לפני',
+        transliteration: 'lif<strong>ney</strong>',
+        englishWords: ['before']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'צומת',
+        transliteration: '<strong>tso</strong>met',
+        englishWords: ['intersection']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'צפון',
+        transliteration: 'tsa<strong>fon</strong>',
+        englishWords: ['north']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'דרום',
+        transliteration: 'da<strong>rom</strong>',
+        englishWords: ['south']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'מזרח',
+        transliteration: 'miz<strong>rax</strong>',
+        englishWords: ['east']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'מערב',
+        transliteration: 'ma`a<strong>rav</strong>',
+        englishWords: ['west']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'מונית',
+        transliteration: 'mo<strong>nit</strong>',
+        englishWords: ['taxi']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'ארוחת בוקר',
+        transliteration: 'aruxat boker',
+        englishWords: ['breakfast']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'ארוחת צהריים',
+        transliteration: 'aruxat tsohorayim',
+        englishWords: ['lunch']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'ארוחת ערב',
+        transliteration: 'aruxat erev',
+        englishWords: ['supper']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'עוף',
+        transliteration: '`off',
+        englishWords: ['chicken']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'בקר',
+        transliteration: 'baqar',
+        englishWords: ['beef']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'גבינה',
+        transliteration: 'gvinah',
+        englishWords: ['cheese']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'ביצה',
+        transliteration: 'beitsah',
+        englishWords: ['eggs']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'ירקות',
+        transliteration: 'yraqot (fresh)',
+        englishWords: ['vegetables']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'פירות',
+        transliteration: 'period (fresh)',
+        englishWords: ['fruit']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'לחם',
+        transliteration: 'lexem',
+        englishWords: ['bread']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'טוסט',
+        transliteration: 'tost',
+        englishWords: ['toast']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'נודלז',
+        transliteration: 'nudelz',
+        englishWords: ['noodles']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'אורז',
+        transliteration: 'orez',
+        englishWords: ['rice']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'סיימתי',
+        transliteration: 'siamti',
+        englishWords: ['I\'m finished']
+    },
+    {
+        unit: 'travel',
+        hebrewWord: 'שרותים',
+        transliteration: 'sheru<strong>tim</strong>',
+        englishWords: ['bathroom']
     }
 ];
 
