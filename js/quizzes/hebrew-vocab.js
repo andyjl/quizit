@@ -830,7 +830,7 @@ var hebrewVocabProblems = [
     },
     {
         unit: 'travel',
-        hebrewWord: 'כמה זה',
+        hebrewWord: 'כמה',
         transliteration: 'kamah',
         englishWords: ['How much']
     },
