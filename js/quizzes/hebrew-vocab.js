@@ -812,7 +812,7 @@ var hebrewVocabProblems = [
 
     {
         unit: 'travel',
-        hebrewWord: 'אחר צהריים',
+        hebrewWord: 'אחר צהריים טובים',
         transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
         englishWords: ['Good Afternoon']
     },
