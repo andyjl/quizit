@@ -811,6 +811,440 @@ var hebrewVocabProblems = [
     },
 
     {
+        unit: 4,
+        hebrewWord: "ירק",
+        transliteration: "<strong>ye</strong>rek",
+        englishWords: ["vegetable"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "ירקות",
+        transliteration: "yera<strong>kot</strong>",
+        englishWords: ["vegetables"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "בצל",
+        transliteration: "ba<strong>tsal</strong>",
+        englishWords: ["onion"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "גזר",
+        transliteration: "<strong>ge</strong>zer",
+        englishWords: ["carrot"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "חסה",
+        transliteration: "<strong>xa</strong>sa",
+        englishWords: ["lettuce"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "כרוב",
+        transliteration: "kruv",
+        englishWords: ["cabbage"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "כרובית",
+        transliteration: "kruv<strong>it</strong>",
+        englishWords: ["cauliflower"],
+        number: Numbers.singular
+    },
+    {
+        unit: 4,
+        hebrewWord: "כרוביות",
+        transliteration: "kruvi<strong>yot</strong>",
+        englishWords: ["cauliflower"],
+        number: Numbers.plural
+    },
+    {
+        unit: 4,
+        hebrewWord: "מלפפון",
+        transliteration: "melafe<strong>fon</strong>",
+        englishWords: ["cucumber"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "עגבנייה",
+        transliteration: "agvani'<strong>ia</strong>",
+        englishWords: ["tomato"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "פטרייה",
+        transliteration: "pitri<strong>'ia</strong>",
+        englishWords: ["mushroom"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "פטריות",
+        transliteration: "pitri<strong>yot</strong>",
+        englishWords: ["mushrooms"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "פלפל",
+        transliteration: "pil<strong>pel</strong>",
+        englishWords: ["pepper"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "קישוא",
+        transliteration: "ki<strong>shu</strong>",
+        englishWords: ["zucchini"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "תפוח אדמה",
+        transliteration: "ta<strong>pu</strong>'ax ada<strong>ma</strong>",
+        englishWords: ["potato"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "תפוחי אדמה",
+        transliteration: "tapu<strong>xei</strong> ada<strong>ma</strong>",
+        englishWords: ["potatoes"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "פטרוזיליה",
+        transliteration: "petro<strong>zi</strong>lia",
+        englishWords: ["parsley"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "שוק",
+        transliteration: "shuk",
+        englishWords: ["marketplace"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "שווקים",
+        transliteration: "shva<strong>kim</strong>",
+        englishWords: ["marketplaces"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "אגורה",
+        transliteration: "ago<strong>ra</strong>",
+        englishWords: ["cent"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "שקל",
+        transliteration: "<strong>she</strong>kel",
+        englishWords: ["shekel"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "קונה",
+        transliteration: "ko<strong>ne</strong>",
+        englishWords: ["buy"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "קונה",
+        transliteration: "ko<strong>na</strong>",
+        englishWords: ["buy"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "משלם",
+        transliteration: "mesha<strong>lem</strong>",
+        englishWords: ["pay"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "משלמת",
+        transliteration: "mesha<strong>le</strong>met",
+        englishWords: ["pay"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "זול",
+        transliteration: "zol",
+        englishWords: ["cheap"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "זולה",
+        transliteration: "zo<strong>la</strong>",
+        englishWords: ["cheap"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "יקר",
+        transliteration: "ya<strong>kar</strong>",
+        englishWords: ["expensive"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "יקרה",
+        transliteration: "yeka<strong>ra</strong>",
+        englishWords: ["expensive"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "טעים",
+        transliteration: "ta<strong>'im</strong>",
+        englishWords: ["tasty"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "טעימה",
+        transliteration: "te'i<strong>ma</strong>",
+        englishWords: ["tasty"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "צריך",
+        transliteration: "tsa<strong>rix</strong>",
+        englishWords: ["need"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 4,
+        hebrewWord: "צריכה",
+        transliteration: "tsri<strong>xa</strong>",
+        englishWords: ["need"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 4,
+        hebrewWord: "תן לי",
+        transliteration: "ten li",
+        englishWords: ["give me"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "מישהו",
+        transliteration: "mishe<strong>hu</strong>",
+        englishWords: ["somebody"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "משהו",
+        transliteration: "mashe<strong>hu</strong>",
+        englishWords: ["something"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "ביחד",
+        transliteration: "be-<strong>ya</strong>xad",
+        englishWords: ["altogether"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "יותר",
+        transliteration: "yo<strong>ter</strong>",
+        englishWords: ["more"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "עשרים",
+        transliteration: "es<strong>rim</strong>",
+        englishWords: ["20", "twenty"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "שלושים",
+        transliteration: "shlo<strong>shim</strong>",
+        englishWords: ["30", "thirty"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "ארבעים",
+        transliteration: "arba<strong>'im</strong>",
+        englishWords: ["40", "forty"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "חמישים",
+        transliteration: "xami<strong>shim</strong>",
+        englishWords: ["50", "fifty"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "שישים",
+        transliteration: "shi<strong>shim</strong>",
+        englishWords: ["60", "sixty"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "שבעים",
+        transliteration: "shiv<strong>'im</strong>",
+        englishWords: ["70", "seventy"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "שמונים",
+        transliteration: "shmo<strong>nim</strong>",
+        englishWords: ["80", "eighty"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "תשעים",
+        transliteration: "tish<strong>'im</strong>",
+        englishWords: ["90", "ninety"]
+    },
+    {
+        unit: 4,
+        hebrewWord: "מאה",
+        transliteration: "me<strong>'a</strong>",
+        englishWords: ["100", "hundred"]
+    },
+
+    {
+        unit: 5,
+        hebrewWord: "פרי",
+        transliteration: "pri",
+        englishWords: ["fruit"],
+        number: Numbers.singular
+    },
+    {
+        unit: 5,
+        hebrewWord: "פירות",
+        transliteration: "pe<strong>rot</strong>",
+        englishWords: ["fruit"],
+        number: Numbers.plural
+    },
+    {
+        unit: 5,
+        hebrewWord: "אבטיח",
+        transliteration: "ava<strong>ti</strong>'ax",
+        englishWords: ["watermelon"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "אשכולית",
+        transliteration: "eshko<strong>lit</strong>",
+        englishWords: ["grapefruit"],
+        number: Numbers.singular
+    },
+    {
+        unit: 5,
+        hebrewWord: "אשכוליות",
+        transliteration: "eshkoli<strong>yot</strong>",
+        englishWords: ["grapefruit"],
+        number: Numbers.plural
+    },
+    {
+        unit: 5,
+        hebrewWord: "בננה",
+        transliteration: "bana<strong>na</strong>",
+        englishWords: ["banana"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "לימון",
+        transliteration: "li<strong>mon</strong>",
+        englishWords: ["lemon"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "ענבים",
+        transliteration: "ana<strong>vim</strong>",
+        englishWords: ["grapes"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "רימון",
+        transliteration: "ri<strong>mon</strong>",
+        englishWords: ["pomegranate"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "תאנה",
+        transliteration: "te'e<strong>na</strong>",
+        englishWords: ["fig"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "תאנים",
+        transliteration: "te'e<strong>nim</strong>",
+        englishWords: ["figs"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "תות",
+        transliteration: "tut",
+        englishWords: ["strawberry"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "תפוז",
+        transliteration: "ta<strong>puz</strong>",
+        englishWords: ["orange"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "תפוח",
+        transliteration: "ta<strong>pu</strong>'ax",
+        englishWords: ["apple"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "התחלה",
+        transliteration: "hatxa<strong>la</strong>",
+        englishWords: ["beginning"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "סוף",
+        transliteration: "sof",
+        englishWords: ["end"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "טרי",
+        transliteration: "ta<strong>ri</strong>",
+        englishWords: ["fresh"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "טרייה",
+        transliteration: "tri<strong>ya</strong>",
+        englishWords: ["fresh"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "מתוק",
+        transliteration: "ma<strong>tok</strong>",
+        englishWords: ["sweet"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "מתוקה",
+        transliteration: "metu<strong>ka</strong>",
+        englishWords: ["sweet"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "כמו",
+        transliteration: "kmo",
+        englishWords: ["like", "as"]
+    },
+    {
+        unit: 5,
+        hebrewWord: "כמה זה עולה",
+        transliteration: "Kama ze ole",
+        englishWords: ["How much does it cost"]
+    },
+
+    {
         unit: 'travel',
         hebrewWord: 'אחר צהריים טובים',
         transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
@@ -1027,16 +1461,24 @@ var hebrewVocabProblems = [
         englishWords: ['eggs']
     },
     {
-        unit: 'travel',
-        hebrewWord: 'ירקות',
-        transliteration: 'yraqot (fresh)',
-        englishWords: ['vegetables']
+        unit: 'extra',
+        hebrewWord: "ירקות",
+        transliteration: "yerakot",
+        englishWords: ["vegetables"]
     },
     {
-        unit: 'travel',
-        hebrewWord: 'פירות',
-        transliteration: 'period (fresh)',
-        englishWords: ['fruit']
+        unit: 5,
+        hebrewWord: "פרי",
+        transliteration: "pri",
+        englishWords: ["fruit"],
+        number: Numbers.singular
+    },
+    {
+        unit: 5,
+        hebrewWord: "פירות",
+        transliteration: "perot",
+        englishWords: ["fruit"],
+        number: Numbers.plural
     },
     {
         unit: 'travel',
