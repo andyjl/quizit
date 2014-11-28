@@ -1575,7 +1575,7 @@ var hebrewVocabProblems = [
         hebrewWord: "מושלג",
         transliteration: "mush<strong>lag</strong>",
         englishWords: ["snowy"]
-    }
+    },
 
     {
         unit: 'travel',
