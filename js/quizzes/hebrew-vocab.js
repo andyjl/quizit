@@ -1245,6 +1245,339 @@ var hebrewVocabProblems = [
     },
 
     {
+        unit: 6,
+        hebrewWord: "דקה",
+        transliteration: "da<strong>ka</strong>",
+        englishWords: ["minute"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "חודש",
+        transliteration: "<strong>xo</strong>desh",
+        englishWords: ["month"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "שנה",
+        transliteration: "sha<strong>na</strong>",
+        englishWords: ["year"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "שנים",
+        transliteration: "sha<strong>nim</strong>",
+        englishWords: ["years"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "שפה",
+        transliteration: "sa<strong>fa</strong>",
+        englishWords: ["language"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "צבע",
+        transliteration: "<strong>tse</strong>va",
+        englishWords: ["color"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "רהיט",
+        transliteration: "ra<strong>hit</strong>",
+        englishWords: ["furniture"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "גשם",
+        transliteration: "<strong>ge</strong>shem",
+        englishWords: ["rain"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "רוח",
+        transliteration: "<strong>ru</strong>'ax",
+        englishWords: ["wind"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "ענן",
+        transliteration: "a<strong>nan</strong>",
+        englishWords: ["cloud"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "עננים",
+        transliteration: "ana<strong>nim</strong>",
+        englishWords: ["clouds"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "שלג",
+        transliteration: "<strong>she</strong>leg",
+        englishWords: ["snow"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "עונה",
+        transliteration: "o<strong>na</strong>",
+        englishWords: ["season"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "עונות",
+        transliteration: "o<strong>not</strong>",
+        englishWords: ["seasons"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "סתיו",
+        transliteration: "stav",
+        englishWords: ["autumn", "fall"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "חורף",
+        transliteration: "<strong>xo</strong>ref",
+        englishWords: ["winter"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "אביב",
+        transliteration: "a<strong>viv</strong>",
+        englishWords: ["spring"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "קיץ",
+        transliteration: "<strong>ka</strong>yits",
+        englishWords: ["summer"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "חמסין",
+        transliteration: "xam<strong>sin</strong>",
+        englishWords: ["heat wave"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "מעלה",
+        transliteration: "ma'a<strong>la</strong>",
+        englishWords: ["degree"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "מעלות",
+        transliteration: "ma'a<strong>lot</strong>",
+        englishWords: ["degrees"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "שמח",
+        transliteration: "sa<strong>me</strong>'ax",
+        englishWords: ["happy"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 6,
+        hebrewWord: "שמחה",
+        transliteration: "sme<strong>xa</strong>",
+        englishWords: ["happy"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 6,
+        hebrewWord: "עצוב",
+        transliteration: "a<strong>tsuv</strong>",
+        englishWords: ["sad"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 6,
+        hebrewWord: "עצובה",
+        transliteration: "atsu<strong>va</strong>",
+        englishWords: ["sad"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 6,
+        hebrewWord: "חזק",
+        transliteration: "xa<strong>zak</strong>",
+        englishWords: ["strong"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 6,
+        hebrewWord: "חזקה",
+        transliteration: "xaza<strong>ka</strong>",
+        englishWords: ["strong"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 6,
+        hebrewWord: "חלש",
+        transliteration: "xa<strong>lash</strong>",
+        englishWords: ["weak"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 6,
+        hebrewWord: "חלשה",
+        transliteration: "xala<strong>sha</strong>",
+        englishWords: ["weak"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 6,
+        hebrewWord: "נעים",
+        transliteration: "na'<strong>im</strong>",
+        englishWords: ["pleasant", "nice"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 6,
+        hebrewWord: "נעימה",
+        transliteration: "ne'i<strong>ma</strong>",
+        englishWords: ["pleasant", "nice"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 6,
+        hebrewWord: "יכול",
+        transliteration: "ya<strong>xol</strong>",
+        englishWords: ["is able", "can"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 6,
+        hebrewWord: "יכולה",
+        transliteration: "yexo<strong>la</strong>",
+        englishWords: ["is able", "can"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 6,
+        hebrewWord: "בן כמה אתה",
+        transliteration: "ben kama ata",
+        englishWords: ["how old are you"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 6,
+        hebrewWord: "בת כמה את",
+        transliteration: "bat kama at",
+        englishWords: ["how old are you"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 6,
+        hebrewWord: "יחיד",
+        transliteration: "ya<strong>xid</strong>",
+        englishWords: ["singular"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "רבים",
+        transliteration: "ra<strong>bim</strong>",
+        englishWords: ["plural"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "ינואר",
+        transliteration: "<strong>ya</strong>nu'ar",
+        englishWords: ["January"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "פברואר",
+        transliteration: "<strong>feb</strong>ru'ar",
+        englishWords: ["February"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "מרץ",
+        transliteration: "merts",
+        englishWords: ["March"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "אפריל",
+        transliteration: "ap<strong>ril</strong>",
+        englishWords: ["April"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "מאי",
+        transliteration: "mai",
+        englishWords: ["May"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "יוני",
+        transliteration: "<strong>yu</strong>ni",
+        englishWords: ["June"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "יולי",
+        transliteration: "<strong>yu</strong>li",
+        englishWords: ["July"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "אוגוסט",
+        transliteration: "<strong>o</strong>gust",
+        englishWords: ["August"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "ספטמבר",
+        transliteration: "sep<strong>tem</strong>ber",
+        englishWords: ["September"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "אוקטובר",
+        transliteration: "oc<strong>to</strong>ber",
+        englishWords: ["October"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "נובמבר",
+        transliteration: "no<strong>vem</strong>ber",
+        englishWords: ["November"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "דצמבר",
+        transliteration: "de<strong>tsem</strong>ber",
+        englishWords: ["December"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "מזל טוב",
+        transliteration: "ma<strong>zal</strong> tov!",
+        englishWords: ["congratulations", "congrats"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "מעונן",
+        transliteration: "me'u<strong>nan</strong>",
+        englishWords: ["cloudy"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "גשום",
+        transliteration: "geshum",
+        englishWords: ["rainy"]
+    },
+    {
+        unit: 6,
+        hebrewWord: "מושלג",
+        transliteration: "mush<strong>lag</strong>",
+        englishWords: ["snowy"]
+    }
+
+    {
         unit: 'travel',
         hebrewWord: 'אחר צהריים טובים',
         transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
@@ -1465,20 +1798,6 @@ var hebrewVocabProblems = [
         hebrewWord: "ירקות",
         transliteration: "yerakot",
         englishWords: ["vegetables"]
-    },
-    {
-        unit: 5,
-        hebrewWord: "פרי",
-        transliteration: "pri",
-        englishWords: ["fruit"],
-        number: Numbers.singular
-    },
-    {
-        unit: 5,
-        hebrewWord: "פירות",
-        transliteration: "perot",
-        englishWords: ["fruit"],
-        number: Numbers.plural
     },
     {
         unit: 'travel',
