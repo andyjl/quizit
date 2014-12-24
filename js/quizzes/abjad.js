@@ -40,7 +40,7 @@ var abjadQuiz = {
         { letter: 'ق', name: 'Qaf' },
         { letter: 'ك', name: 'Kaf' },
         { letter: 'گ', name: 'Gaf' },
-        { letter: 'غ', name: 'Lam' },
+        { letter: 'ل', name: 'Lam' },
         { letter: 'م', name: ['Mim', 'Miim'] },
         { letter: 'ن', name: ['Nun', 'Nuun'] },
         { letter: 'ه', name: 'Ha' },
