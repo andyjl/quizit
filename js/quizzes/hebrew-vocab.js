@@ -1211,25 +1211,29 @@ var hebrewVocabProblems = [
         unit: 5,
         hebrewWord: "טרי",
         transliteration: "ta<strong>ri</strong>",
-        englishWords: ["fresh"]
+        englishWords: ["fresh"],
+        gender: Genders.masculine
     },
     {
         unit: 5,
         hebrewWord: "טרייה",
         transliteration: "tri<strong>ya</strong>",
-        englishWords: ["fresh"]
+        englishWords: ["fresh"],
+        gender: Genders.feminine
     },
     {
         unit: 5,
         hebrewWord: "מתוק",
         transliteration: "ma<strong>tok</strong>",
-        englishWords: ["sweet"]
+        englishWords: ["sweet"],
+        gender: Genders.masculine
     },
     {
         unit: 5,
         hebrewWord: "מתוקה",
         transliteration: "metu<strong>ka</strong>",
-        englishWords: ["sweet"]
+        englishWords: ["sweet"],
+        gender: Genders.feminine
     },
     {
         unit: 5,
