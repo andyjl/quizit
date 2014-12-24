@@ -4,42 +4,194 @@
     <meta charset="utf-8" />
     <title>QuizIt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/modernizr.js"></script>
-    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="lib/css/foundation.css" />
+    <script src="lib/js/modernizr.js"></script>
+    <script src="lib/js/jquery.js"></script>
+    <script src="lib/js/jquery.cookie.js"></script>
 
-    <!-- QuizIt stuff -->
     <script src="js/quiz-it-core.js"></script>
-    <script src="js/quiz-it-web.js"></script>
-    <script src="js/quizzes/hebrew-alphabet.js"></script>
-    <script src="js/quizzes/hebrew-vocab1.js"></script>
+    <script src="js/quiz-it-home.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48328464-1', 'dothebeef.com');
+      ga('send', 'pageview');
+
+    </script>
+
+    <style>
+        h2 {
+            margin: 15px 0px;
+        }
+        .quiz-list {
+            display: block;
+            list-style: none;
+            margin-left: 0;
+            margin-bottom: .5rem;
+            overflow: auto;
+        }
+        .quiz-list a {
+            border: 2px solid rgba(0,0,0,0.1);
+            color: white;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 20px 25px;
+            text-align: center;
+            width: 220px;
+        }
+        .quiz-list p {
+            margin-bottom: 0;
+        }
+        .quiz-list a.alphabet {
+            background: #2b78e4;
+        }
+        .quiz-list a.alphabet:hover {
+            background: #2461B8;
+        }
+        .quiz-list a.greek-alphabet {
+            background: #9E0000;
+        }
+        .quiz-list a.greek-alphabet:hover {
+            background: #850000;
+        }
+        .quiz-list a.arabic-alphabet {
+            background: #9E0000;
+        }
+        .quiz-list a.arabic-alphabet:hover {
+            background: #850000;
+        }
+        .quiz-list a.vocab {
+            background: #009e0f;
+        }
+        .quiz-list a.vocab:hover {
+            background: #00850D;
+        }
+        input[type="checkbox"] {
+            margin-bottom: .5rem;
+        }
+        .hidden {
+            display: none;
+        }
+
+    </style>
 </head>
-<body onload="QuizItWeb.init()">
+<body onload="QuizItHome.init();">
 
     <div class="row">
-        <div class="large-8 columns">
-            <div>
-                <span class="label js-progress-indicator"></span>
-                <span class="label js-right-count"></span>
-                <span class="label js-wrong-count"></span>
-            </div>
-            <br/>
-            <h4 class="js-message"></h4>
-            <h2 class="js-prompt">ש׳קרםכל</h2>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="row">
-        <div class="large-8 columns">
-            <input class="js-answer-input" type="text" placeholder="Enter the answer" autocorrect="off" autocapitalize="off" />
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="large-8 columns">
-            <h4 class="js-response"></h4>
+        <div class="large-9 columns">
+            <h2>Welcome to QuizIt!</h2>
+            <h4>Select a Quiz</h4>
+            <ul class="quiz-list">
+                <li>
+                    <a class="alphabet" href="quiz.html?quiz=hebrew-alphabet">
+                        <strong>Hebrew Alphabet</strong><br>
+                        <p>Hebrew --> English</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="alphabet" href="quiz.html?quiz=hebrew-alphabet-reverse">
+                        <strong>Hebrew Alphabet</strong><br>
+                        <p>English --> Hebrew</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="alphabet" href="quiz.html?quiz=hebrew-vowels">
+                        <strong>Hebrew Vowels</strong><br>
+                        <p>Vowel --> Sound</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="alphabet hidden" href="quiz.html?quiz=hebrew-alphabet-same">
+                        <strong>Hebrew Alphabet</strong><br>
+                        <p>Hebrew --> Hebrew</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="quiz-list">
+                <li>
+                    <a class="greek-alphabet" href="quiz.html?quiz=greek-alphabet">
+                        <strong>Greek Alphabet</strong><br>
+                        <p>Greek --> English</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="arabic-alphabet" href="quiz.html?quiz=arabic-abjad">
+                        <strong>Arabic Abjad</strong><br>
+                        <p>Arabic --> English</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="quiz-list">
+                <li>
+                    <a class="vocab js-vocab-link" href="">
+                        <strong>Hebrew Vocabulary</strong><br>
+                        <p>Hebrew --> English</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="vocab js-vocab-trans-link" href="">
+                        <strong>Hebrew Vocabulary</strong><br>
+                        <p>(with transliterations)</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="vocab js-vocab-reverse-link" href="">
+                        <strong>Hebrew Vocabulary</strong><br>
+                        <p>English --> Hebrew</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="vocab js-vocab-same-link hidden" href="">
+                        <strong>Hebrew Vocabulary</strong><br>
+                        <p>Hebrew --> Hebrew</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="vocab hidden" href="quiz.html?quiz=hebrew-tech-vocab">
+                        <strong>Hebrew Vocabulary</strong><br>
+                        <p>Technology</p>
+                    </a>
+                </li>
+            </ul>
+            <h5>Vocabulary Words:</h5>
+            <form>
+                <input id="unit1" class="js-vocab-checkbox" unit="1" type="checkbox"/><label for="unit1">Unit 1</label><br>
+                <input id="unit2" class="js-vocab-checkbox" unit="2" type="checkbox"/><label for="unit2">Unit 2</label><br>
+                <input id="unit3" class="js-vocab-checkbox" unit="3" type="checkbox"/><label for="unit3">Unit 3</label><br>
+                <input id="unit4" class="js-vocab-checkbox" unit="4" type="checkbox"/><label for="unit4">Unit 4</label><br>
+                <input id="unit5" class="js-vocab-checkbox" unit="5" type="checkbox"/><label for="unit5">Unit 5</label><br>
+                <input id="unit6" class="js-vocab-checkbox" unit="6" type="checkbox"/><label for="unit6">Unit 6</label><br>
+                <input id="travel" class="js-vocab-checkbox" unit="travel" type="checkbox"/><label for="travel">Travel</label><br>
+            </form>
+            <h4>Review Quiz Answers</h4>
+            <ul class="quiz-list">
+                <li>
+                    <a class="alphabet" href="review.html?quiz=hebrew-alphabet">
+                        <strong>Hebrew Alphabet</strong>
+                    </a>
+                </li>
+                <li>
+                    <a class="greek-alphabet" href="review.html?quiz=greek-alphabet">
+                        <strong>Greek Alphabet</strong>
+                    </a>
+                </li>
+                <li>
+                    <a class="vocab" href="review.html?quiz=hebrew-vocab">
+                        <strong>Hebrew Vocabulary</strong>
+                    </a>
+                </li>
+                <li>
+                    <a class="vocab hidden" href="review.html?quiz=hebrew-tech-vocab">
+                        <strong>Hebrew Tech</strong>
+                    </a>
+                </li>
+            </ul>
+            <p>If you encounter any problems or have suggestions, please <a href="mailto:dothebeef@me.com?subject=Feedback%20for%20QuizIt">email me</a>!</p>
         </div>
     </div>
 

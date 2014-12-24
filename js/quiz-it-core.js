@@ -8,6 +8,15 @@ QuizIt = {
     quizzes: {},
     rightCount: 0,
     wrongCount: 0,
+    wrongProblems: [],
+
+    /* Helpers */
+    getParameterByName: function (name) {
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    },
 
     /* Private Methods */
     _getCurrentAnswer: function () {
@@ -18,12 +27,21 @@ QuizIt = {
         return this.currentProblem[this.activeQuiz.promptField];
     },
 
-    _loadNextProblem: function () {
+    _loadNextProblem: function (wasRight, removeCurrent) {
+        if (wasRight) {
+            this.problems.shift();
+            if (!removeCurrent) {
+                this.problems.push(this.currentProblem);
+                this.wrongProblems.push(this.currentProblem);
+            }
+        }
+
         if (this.problems.length === 0) {
             this._setup();
         }
 
-        this.currentProblem = this.problems.pop();
+        this.currentProblem = this.problems[0];
+
         this.currentIsWrong = false;
     },
 
@@ -31,6 +49,7 @@ QuizIt = {
         this.currentProblem = null;
         this.rightCount = 0;
         this.wrongCount = 0;
+        this.wrongProblems = [];
 
         // Randomize and clone the problems.
         this.problems = [];
@@ -53,7 +72,16 @@ QuizIt = {
     },
 
     getCurrentAnswer: function () {
-        return this._getCurrentAnswer();
+        var currentAnswer = this._getCurrentAnswer();
+        if (Array.isArray(currentAnswer)) {
+            return currentAnswer.join(", ");
+        } else {
+            return currentAnswer;
+        }
+    },
+
+    getCurrentProblem: function () {
+        return this.currentProblem;
     },
 
     getCurrentPrompt: function () {
@@ -80,19 +108,32 @@ QuizIt = {
             throw "You must specify an answer.";
         }
 
+        var right = false;
         answer = answer.toLowerCase();
-        var currentAnswer = this._getCurrentAnswer().toLowerCase();
 
-        if (answer == currentAnswer) {
-            if (!this.currentIsWrong) {
+        // If the currentAnswer is an array, check if the answer is in the list.
+        var currentAnswer = this._getCurrentAnswer();
+        if (Array.isArray(currentAnswer)) {
+            $.each(currentAnswer, function (index, possibleAnswer) {
+                if (answer == possibleAnswer.toLowerCase()) {
+                    right = true;
+                    return false;
+                }
+            });
+        } else {
+            right = (answer == currentAnswer.toLowerCase());
+        }
+
+        if (right) {
+            if (!this.currentIsWrong && this.wrongProblems.indexOf(this.currentProblem) === -1) {
                 this.rightCount++;
             }
 
-            this._loadNextProblem();
+            this._loadNextProblem(true, !this.currentIsWrong);
 
             return true;
         } else {
-            if (!this.currentIsWrong) {
+            if (!this.currentIsWrong && this.wrongProblems.indexOf(this.currentProblem) === -1) {
                 this.wrongCount++;
             }
 
@@ -121,8 +162,8 @@ QuizIt = {
 
 String.prototype.format = function() {
     var s = this;
-    for (var i = 0; i < arguments.length; i++) {       
-        var reg = new RegExp("\\{" + i + "\\}", "gm");             
+    for (var i = 0; i < arguments.length; i++) {
+        var reg = new RegExp("\\{" + i + "\\}", "gm");
         s = s.replace(reg, arguments[i]);
     }
 

@@ -3,14 +3,6 @@ QuizItWeb = {
     /* Variables */
     activeQuiz: null,
 
-    /* Helpers */
-    _getParameterByName: function (name) {
-        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-            results = regex.exec(location.search);
-        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    },
-
     /* Event Handlers */
     onAnswerInput_keydown: function (e) {
         if (e.keyCode === 13) {
@@ -18,9 +10,13 @@ QuizItWeb = {
         }
     },
 
+    onVocabCheckbox_click: function (e) {
+        alert('times');
+    },
+
     /* Methods */
     init: function () {
-        var quizName = this._getParameterByName("quiz");
+        var quizName = QuizIt.getParameterByName("quiz");
 
         try {
             QuizIt.start(quizName);
@@ -30,17 +26,27 @@ QuizItWeb = {
 
         this.activeQuiz = QuizIt.getActiveQuiz();
 
+        document.title = "{0} - QuizIt".format(this.activeQuiz.description);
+
         // Set up some things.
         $(".js-message").html(QuizIt.getMessageText());
         this._update();
 
         $(".js-answer-input").on("keydown", this.onAnswerInput_keydown);
+
+        var cursive = QuizIt.getParameterByName("cursive");
+        if (cursive) {
+            var style = $("<style>.hebrew {font-family: 'guttman_yad-brush'; }</style>");
+            $('html > head').append(style);
+        }
     },
 
     guess: function () {
         var answer = $(".js-answer-input").val();
         var right;
         var message;
+
+        var currentProblem = QuizIt.getCurrentProblem();
 
         try {
             right = QuizIt.guess(answer);
@@ -52,6 +58,10 @@ QuizItWeb = {
             message = "You got it right!";
         } else if (right === false) {
             message = "You got it wrong. The answer is '{0}'.".format(QuizIt.getCurrentAnswer());
+        }
+
+        if (this.activeQuiz.getAnswerMessage) {
+            message += " " + this.activeQuiz.getAnswerMessage(currentProblem);
         }
 
         $(".js-response").html(message);

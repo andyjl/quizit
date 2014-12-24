@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>QuizIt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lib/css/foundation.css" />
+    <script src="lib/js/modernizr.js"></script>
+    <script src="lib/js/jquery.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48328464-1', 'dothebeef.com');
+      ga('send', 'pageview');
+
+    </script>
+
+    <style type="text/css">
+        .home-link {
+            float: right;
+            text-align: right;
+        }
+
+        @font-face {
+            font-family: 'guttman_yad-brush';
+            src: url('fonts/guttman_yad-brush.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .hebrew {
+            font-family: sans-serif;
+        }
+
+        .greek {
+            font-family: serif;
+        }
+
+        .touch .js-message {
+            display: none;
+        }
+
+        .touch .home-link {
+            font-size: 13px;
+        }
+
+        input.answer-input {
+            font-size: 1.2em;
+        }
+    </style>
+
+    <!-- QuizIt stuff -->
+    <script src="js/quiz-it-core.js"></script>
+    <script src="js/quiz-it-web.js"></script>
+    <script src="js/quizzes/hebrew-alphabet.js"></script>
+    <script src="js/quizzes/hebrew-alphabet-reverse.js"></script>
+    <script src="js/quizzes/hebrew-alphabet-same.js"></script>
+    <script src="js/quizzes/greek-alphabet.js"></script>
+    <script src="js/quizzes/hebrew-vocab.js"></script>
+    <script src="js/quizzes/hebrew-vocab_v1.js"></script>
+    <script src="js/quizzes/hebrew-tech-vocab.js"></script>
+    <script src="js/quizzes/hebrew-vowels.js"></script>
+    <script src="js/quizzes/abjad.js"></script>
+</head>
+<body onload="QuizItWeb.init()">
+
+    <div class="row">
+        <div class="large-8 columns">
+            <div>
+                <span class="label js-progress-indicator"></span>
+                <span class="label js-right-count"></span>
+                <span class="label js-wrong-count"></span>
+                <a class="home-link" href="index.html">&lt;-- Back to Home</a>
+            </div>
+            <br/>
+            <h4 class="js-message"></h4>
+            <h2 class="js-prompt">ש׳קרםכל</h2>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="large-8 columns">
+            <input class="js-answer-input answer-input" type="text" placeholder="Enter the answer" autocorrect="off" autocapitalize="off" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-8 columns">
+            <h4 class="js-response"></h4>
+        </div>
+    </div>
+
+</body>
+</html>
