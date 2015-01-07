@@ -1582,6 +1582,189 @@ var hebrewVocabProblems = [
     },
 
     {
+        unit: 7,
+        hebrewWord: "גן",
+        transliteration: "gan",
+        englishWords: ["kindergarten"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "גנן",
+        transliteration: "ga<strong>nan</strong>",
+        englishWords: ["kindergarten teacher"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "גננת",
+        transliteration: "ga<strong>ne</strong>net",
+        englishWords: ["kindergarten teacher"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מקום",
+        transliteration: "ma<strong>kom</strong>",
+        englishWords: ["place", "space"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 7,
+        hebrewWord: "מקומות",
+        transliteration: "meko<strong>mot</strong>",
+        englishWords: ["place", "space"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 7,
+        hebrewWord: "דבר",
+        transliteration: "da<strong>var</strong>",
+        englishWords: ["thing"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "דברים",
+        transliteration: "dva<strong>rim</strong>",
+        englishWords: ["things"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "צבע",
+        transliteration: "<strong>tse</strong>va",
+        englishWords: ["color"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "צבעים",
+        transliteration: "tsva'<strong>im</strong>",
+        englishWords: ["colors"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "סיפור",
+        transliteration: "si<strong>pur</strong>",
+        englishWords: ["story"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מתלבש",
+        transliteration: "mitla<strong>besh</strong>",
+        englishWords: ["get dressed"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מתלבשת",
+        transliteration: "mitla<strong>be</strong>shet",
+        englishWords: ["get dressed"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מספר",
+        transliteration: "mesa<strong>per</strong>",
+        englishWords: ["tell"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מספרת",
+        transliteration: "mesa<strong>pe</strong>ret",
+        englishWords: ["tell"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "משחק",
+        transliteration: "mesa<strong>xek</strong>",
+        englishWords: ["play"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "זז",
+        transliteration: "zaz",
+        englishWords: ["move"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "זזה",
+        transliteration: "za<strong>za</strong>",
+        englishWords: ["move"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "טס",
+        transliteration: "tas",
+        englishWords: ["fly"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "נח",
+        transliteration: "nax",
+        englishWords: ["rest"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "צם",
+        transliteration: "tsam",
+        englishWords: ["fast"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "רב",
+        transliteration: "rav",
+        englishWords: ["quarrel", "fight"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מוקדם",
+        transliteration: "muk<strong>dam</strong>",
+        englishWords: ["early"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "מאוחר",
+        transliteration: "me'u<strong>xar</strong>",
+        englishWords: ["late"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "לבד",
+        transliteration: "le<strong>vad</strong>",
+        englishWords: ["alone"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "ביחד",
+        transliteration: "be-<strong>ya</strong>xad",
+        englishWords: ["together"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "לפני",
+        transliteration: "lif<strong>ney</strong>",
+        englishWords: ["before"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "אחרי",
+        transliteration: "axa<strong>rei</strong>",
+        englishWords: ["after"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "תמיד",
+        transliteration: "ta<strong>mid</strong>",
+        englishWords: ["always"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "לפעמים",
+        transliteration: "li-f'a<strong>mim</strong>",
+        englishWords: ["sometimes"]
+    },
+    {
+        unit: 7,
+        hebrewWord: "הכי",
+        transliteration: "ha<strong>xi</strong>",
+        englishWords: ["the most"]
+    },
+
+    {
         unit: 'travel',
         hebrewWord: 'אחר צהריים טובים',
         transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
