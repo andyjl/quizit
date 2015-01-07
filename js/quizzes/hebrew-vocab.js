@@ -1610,7 +1610,7 @@ var hebrewVocabProblems = [
         unit: 7,
         hebrewWord: "מקומות",
         transliteration: "meko<strong>mot</strong>",
-        englishWords: ["place", "space"],
+        englishWords: ["places", "spaces"],
         gender: Genders.masculine
     },
     {
