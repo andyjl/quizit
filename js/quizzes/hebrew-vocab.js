@@ -1591,13 +1591,15 @@ var hebrewVocabProblems = [
         unit: 7,
         hebrewWord: "גנן",
         transliteration: "ga<strong>nan</strong>",
-        englishWords: ["kindergarten teacher"]
+        englishWords: ["kindergarten teacher"],
+        gender: Genders.masculine
     },
     {
         unit: 7,
         hebrewWord: "גננת",
         transliteration: "ga<strong>ne</strong>net",
-        englishWords: ["kindergarten teacher"]
+        englishWords: ["kindergarten teacher"],
+        gender: Genders.feminine
     },
     {
         unit: 7,
@@ -1647,25 +1649,29 @@ var hebrewVocabProblems = [
         unit: 7,
         hebrewWord: "מתלבש",
         transliteration: "mitla<strong>besh</strong>",
-        englishWords: ["get dressed"]
+        englishWords: ["get dressed"],
+        gender: Genders.masculine
     },
     {
         unit: 7,
         hebrewWord: "מתלבשת",
         transliteration: "mitla<strong>be</strong>shet",
-        englishWords: ["get dressed"]
+        englishWords: ["get dressed"],
+        gender: Genders.feminine
     },
     {
         unit: 7,
         hebrewWord: "מספר",
         transliteration: "mesa<strong>per</strong>",
-        englishWords: ["tell"]
+        englishWords: ["tell"],
+        gender: Genders.masculine
     },
     {
         unit: 7,
         hebrewWord: "מספרת",
         transliteration: "mesa<strong>pe</strong>ret",
-        englishWords: ["tell"]
+        englishWords: ["tell"],
+        gender: Genders.feminine
     },
     {
         unit: 7,
@@ -1677,13 +1683,15 @@ var hebrewVocabProblems = [
         unit: 7,
         hebrewWord: "זז",
         transliteration: "zaz",
-        englishWords: ["move"]
+        englishWords: ["move"],
+        gender: Genders.masculine
     },
     {
         unit: 7,
         hebrewWord: "זזה",
         transliteration: "za<strong>za</strong>",
-        englishWords: ["move"]
+        englishWords: ["move"],
+        gender: Genders.feminine
     },
     {
         unit: 7,
@@ -1762,6 +1770,165 @@ var hebrewVocabProblems = [
         hebrewWord: "הכי",
         transliteration: "ha<strong>xi</strong>",
         englishWords: ["the most"]
+    },
+
+    {
+        unit: 8,
+        hebrewWord: "בגד",
+        transliteration: "<strong>be</strong>gged",
+        englishWords: ["garment"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "בגדים",
+        transliteration: "bega<strong>dim</strong>",
+        englishWords: ["garments", "clothes"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "ארון",
+        transliteration: "a<strong>ron</strong>",
+        englishWords: ["cupboard", "closet"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "ארונות",
+        transliteration: "aro<strong>not</strong>",
+        englishWords: ["cupboards", "closets"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "סוודר",
+        transliteration: "<strong>sve</strong>der",
+        englishWords: ["sweater"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "מעיל",
+        transliteration: "me'<strong>il</strong>",
+        englishWords: ["coat"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "מכנסיים",
+        transliteration: "mixna<strong>sa</strong>yim",
+        englishWords: ["pants", "trousers"],
+        gender: Genders.masculine,
+        number: Numbers.plural
+    },
+    {
+        unit: 8,
+        hebrewWord: "חולצה",
+        transliteration: "xul<strong>tsa</strong>",
+        englishWords: ["shirt"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 8,
+        hebrewWord: "שמלה",
+        transliteration: "sim<strong>la</strong>",
+        englishWords: ["dress"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 8,
+        hebrewWord: "חצאית",
+        transliteration: "xatsa'<strong>it</strong>",
+        englishWords: ["skirt"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 8,
+        hebrewWord: "חצאיות",
+        transliteration: "xatsa'i<strong>yot</strong>",
+        englishWords: ["skirts"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 8,
+        hebrewWord: "חנות",
+        transliteration: "xa<strong>nut</strong>",
+        englishWords: ["store"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "חנויות",
+        transliteration: "xanu<strong>yot</strong>",
+        englishWords: ["stores"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "מודד",
+        transliteration: "mo<strong>ded</strong>",
+        englishWords: ["try on"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "מודדת",
+        transliteration: "mo<strong>de</strong>det",
+        englishWords: ["try on"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 8,
+        hebrewWord: "פונה",
+        transliteration: "po'<strong>ne</strong>",
+        englishWords: ["turn"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "פונה",
+        transliteration: "po<strong>na</strong>",
+        englishWords: ["turn"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 8,
+        hebrewWord: "עונה",
+        transliteration: "o'<strong>ne</strong>",
+        englishWords: ["answer"]
+    },
+    {
+        unit: 8,
+        hebrewWord: "עולה",
+        transliteration: "o'<strong>le</strong>",
+        englishWords: ["rise", "go up"]
+    },
+    {
+        unit: 8,
+        hebrewWord: "מתאים",
+        transliteration: "mat'<strong>im</strong>",
+        englishWords: ["fit", "be appropriate"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "מתאימה",
+        transliteration: "mat'i<strong>ma</strong>",
+        englishWords: ["fit", "be appropriate"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 8,
+        hebrewWord: "המון",
+        transliteration: "ha<strong>mon</strong>",
+        englishWords: ["a lot", "many"]
+    },
+    {
+        unit: 8,
+        hebrewWord: "מידיי",
+        transliteration: "mi<strong>dai</strong>",
+        englishWords: ["too", "overly"]
     },
 
     {
