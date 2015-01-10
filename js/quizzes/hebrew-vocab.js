@@ -1916,7 +1916,7 @@ var hebrewVocabProblems = [
         hebrewWord: "מתאימה",
         transliteration: "mat'i<strong>ma</strong>",
         englishWords: ["fit", "be appropriate"],
-        gender: Genders.masculine
+        gender: Genders.feminine
     },
     {
         unit: 8,
