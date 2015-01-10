@@ -363,20 +363,6 @@ var hebrewVocabProblems = [
     },
     {
         unit: 2,
-        hebrewWord: "יכול",
-        transliteration: "ya<strong>xol</strong>",
-        englishWords: ["can", "is able"],
-        gender: Genders.masculine
-    },
-    {
-        unit: 2,
-        hebrewWord: "יכולה",
-        transliteration: "yexo<strong>la</strong>",
-        englishWords: ["can", "is able"],
-        gender: Genders.feminine
-    },
-    {
-        unit: 2,
         hebrewWord: "חם",
         transliteration: "xam",
         englishWords: ["hot"],
@@ -1042,18 +1028,6 @@ var hebrewVocabProblems = [
     },
     {
         unit: 4,
-        hebrewWord: "ביחד",
-        transliteration: "be-<strong>ya</strong>xad",
-        englishWords: ["altogether"]
-    },
-    {
-        unit: 4,
-        hebrewWord: "יותר",
-        transliteration: "yo<strong>ter</strong>",
-        englishWords: ["more"]
-    },
-    {
-        unit: 4,
         hebrewWord: "עשרים",
         transliteration: "es<strong>rim</strong>",
         englishWords: ["20", "twenty"]
@@ -1277,12 +1251,6 @@ var hebrewVocabProblems = [
         hebrewWord: "שפה",
         transliteration: "sa<strong>fa</strong>",
         englishWords: ["language"]
-    },
-    {
-        unit: 6,
-        hebrewWord: "צבע",
-        transliteration: "<strong>tse</strong>va",
-        englishWords: ["color"]
     },
     {
         unit: 6,
@@ -1969,12 +1937,6 @@ var hebrewVocabProblems = [
     },
     {
         unit: 'travel',
-        hebrewWord: 'מאה',
-        transliteration: '<strong>me</strong>’ah',
-        englishWords: ['100']
-    },
-    {
-        unit: 'travel',
         hebrewWord: 'אלף',
         transliteration: '<strong>el</strong>ef',
         englishWords: ['1000']
@@ -1990,30 +1952,6 @@ var hebrewVocabProblems = [
         hebrewWord: 'פחות',
         transliteration: 'pa<strong>xot</strong>',
         englishWords: ['less']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'חודש',
-        transliteration: '<strong>xo</strong>desh',
-        englishWords: ['month']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'שנה',
-        transliteration: 'sha<strong>nah</strong>',
-        englishWords: ['year']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'שעה',
-        transliteration: 'sha`<strong>ah</strong>',
-        englishWords: ['hour']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'דקה',
-        transliteration: 'da<strong>qah</strong>',
-        englishWords: ['minute']
     },
     {
         unit: 'travel',
@@ -2056,18 +1994,6 @@ var hebrewVocabProblems = [
         hebrewWord: 'לכיוון',
         transliteration: 'leki<strong>vun</strong>',
         englishWords: ['towards']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'אחרי',
-        transliteration: 'ax<strong>rey</strong>',
-        englishWords: ['past']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'לפני',
-        transliteration: 'lif<strong>ney</strong>',
-        englishWords: ['before']
     },
     {
         unit: 'travel',
