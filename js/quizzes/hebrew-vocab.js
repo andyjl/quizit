@@ -1771,7 +1771,7 @@ var hebrewVocabProblems = [
         transliteration: "ha<strong>xi</strong>",
         englishWords: ["the most"]
     },
-
+/*
     {
         unit: 8,
         hebrewWord: "בגד",
@@ -1813,7 +1813,7 @@ var hebrewVocabProblems = [
         transliteration: "me'<strong>il</strong>",
         englishWords: ["coat"],
         gender: Genders.masculine
-    },
+    },*/
     {
         unit: 8,
         hebrewWord: "מכנסיים",
@@ -1821,7 +1821,7 @@ var hebrewVocabProblems = [
         englishWords: ["pants", "trousers"],
         gender: Genders.masculine,
         number: Numbers.plural
-    },
+    },/*
     {
         unit: 8,
         hebrewWord: "חולצה",
@@ -1835,7 +1835,7 @@ var hebrewVocabProblems = [
         transliteration: "sim<strong>la</strong>",
         englishWords: ["dress"],
         gender: Genders.feminine
-    },
+    },*/
     {
         unit: 8,
         hebrewWord: "חצאית",
@@ -1863,7 +1863,7 @@ var hebrewVocabProblems = [
         transliteration: "xanu<strong>yot</strong>",
         englishWords: ["stores"],
         gender: Genders.masculine
-    },
+    },/*
     {
         unit: 8,
         hebrewWord: "מודד",
@@ -1903,7 +1903,7 @@ var hebrewVocabProblems = [
         hebrewWord: "עולה",
         transliteration: "o'<strong>le</strong>",
         englishWords: ["rise", "go up"]
-    },
+    },*/
     {
         unit: 8,
         hebrewWord: "מתאים",
@@ -1917,7 +1917,7 @@ var hebrewVocabProblems = [
         transliteration: "mat'i<strong>ma</strong>",
         englishWords: ["fit", "be appropriate"],
         gender: Genders.feminine
-    },
+    },/*
     {
         unit: 8,
         hebrewWord: "המון",
@@ -1929,7 +1929,7 @@ var hebrewVocabProblems = [
         hebrewWord: "מידיי",
         transliteration: "mi<strong>dai</strong>",
         englishWords: ["too", "overly"]
-    },
+    },*/
 
     {
         unit: 'travel',
