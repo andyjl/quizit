@@ -1900,6 +1900,277 @@ var hebrewVocabProblems = [
     },
 
     {
+        unit: 9,
+        hebrewWord: "רכבת",
+        transliteration: "ra<strong>ke</strong>vet",
+        englishWords: ["train"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "רכבות",
+        transliteration: "raka<strong>vo</strong>t",
+        englishWords: ["trains"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מונית",
+        transliteration: "mo<strong>nit</strong>",
+        englishWords: ["taxi", "cab"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מוניות",
+        transliteration: "moni<strong>yot</strong>",
+        englishWords: ["taxis", "cabs"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "אוטובוס",
+        transliteration: "oto<strong>bus</strong>",
+        englishWords: ["bus"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מטוס",
+        transliteration: "ma<strong>tos</strong>",
+        englishWords: ["airplane", "plane"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מכונית",
+        transliteration: "mexo<strong>nit</strong>",
+        englishWords: ["car"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מכוניות",
+        transliteration: "mexoni<strong>yot</strong>",
+        englishWords: ["cars"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "תחנה",
+        transliteration: "taxa<strong>na</strong>",
+        englishWords: ["station", "stop"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "כרטיס",
+        transliteration: "kar<strong>tis</strong>",
+        englishWords: ["ticket"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "פקיד",
+        transliteration: "pa<strong>kid</strong>",
+        englishWords: ["clerk"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "פקידים",
+        transliteration: "pki<strong>dim</strong>",
+        englishWords: ["clerks"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "קופה",
+        transliteration: "ku<strong>pa</strong>",
+        englishWords: ["cash box"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מלון",
+        transliteration: "ma<strong>lon</strong>",
+        englishWords: ["hotel"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מלונות",
+        transliteration: "melo<strong>not</strong>",
+        englishWords: ["hotels"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "רציף",
+        transliteration: "ra<strong>tsif</strong>",
+        englishWords: ["platform"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "נהג",
+        transliteration: "na<strong>hag</strong>",
+        englishWords: ["driver"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "נהגת",
+        transliteration: "nahaget",
+        englishWords: ["driver"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מגיע",
+        transliteration: "ma<strong>gi</strong>’a",
+        englishWords: ["arrive"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מגיעה",
+        transliteration: "magi<strong>’a</strong>",
+        englishWords: ["arrive"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "יושב",
+        transliteration: "yo<strong>shev</strong>",
+        englishWords: ["sit"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "יושבת",
+        transliteration: "yo<strong>she</strong>vet",
+        englishWords: ["sit"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "יורד",
+        transliteration: "yo<strong>red</strong>",
+        englishWords: ["descend", "go down"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "יוצא",
+        transliteration: "yo<strong>tse</strong>",
+        englishWords: ["go out", "exit"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "לוקח",
+        transliteration: "lo<strong>ke</strong>’ax",
+        englishWords: ["take"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "לוקחת",
+        transliteration: "lo<strong>ka</strong>xat",
+        englishWords: ["take"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "עוצר",
+        transliteration: "o<strong>tser</strong>",
+        englishWords: ["stop"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "מרכזי",
+        transliteration: "merka<strong>zi</strong>",
+        englishWords: ["central"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "מרכזית",
+        transliteration: "merka<strong>zit</strong>",
+        englishWords: ["central"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "רחוק",
+        transliteration: "ra<strong>xok</strong>",
+        englishWords: ["far"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "רחוקה",
+        transliteration: "rexo<strong>ka</strong>",
+        englishWords: ["far"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "קרוב",
+        transliteration: "ka<strong>rov</strong>",
+        englishWords: ["close", "near"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 9,
+        hebrewWord: "קרובה",
+        transliteration: "kro<strong>va</strong>",
+        englishWords: ["close", "near"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 9,
+        hebrewWord: "ישר",
+        transliteration: "yashar",
+        englishWords: ["straight"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "ימינה",
+        transliteration: "ya<strong>mi</strong>na",
+        englishWords: ["to the right"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "שמאלה",
+        transliteration: "<strong>smo</strong>la",
+        englishWords: ["to the left"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "כאן",
+        transliteration: "kan",
+        englishWords: ["here"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "בעוד",
+        transliteration: "be-<strong>od</strong>",
+        englishWords: ["In a"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "הבא",
+        transliteration: "ha-<strong>ba</strong>",
+        englishWords: ["next", "coming"],
+    },
+    {
+        unit: 9,
+        hebrewWord: "אדוני",
+        transliteration: "ado<strong>ni</strong>",
+        englishWords: ["Mr", "sir"],
+    },
+
+    {
         unit: 'travel',
         hebrewWord: 'אחר צהריים טובים',
         transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
@@ -1961,12 +2232,6 @@ var hebrewVocabProblems = [
     },
     {
         unit: 'travel',
-        hebrewWord: 'מלון',
-        transliteration: 'ma<strong>lon</strong>',
-        englishWords: ['hotel']
-    },
-    {
-        unit: 'travel',
         hebrewWord: 'רחוב',
         transliteration: 're<strong>xov</strong>',
         englishWords: ['street']
@@ -1982,12 +2247,6 @@ var hebrewVocabProblems = [
         hebrewWord: 'ימין',
         transliteration: 'ya<strong>min</strong>',
         englishWords: ['right']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'ישר',
-        transliteration: 'ya<strong>shar</strong>',
-        englishWords: ['straight ahead']
     },
     {
         unit: 'travel',
@@ -2024,12 +2283,6 @@ var hebrewVocabProblems = [
         hebrewWord: 'מערב',
         transliteration: 'ma`a<strong>rav</strong>',
         englishWords: ['west']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'מונית',
-        transliteration: 'mo<strong>nit</strong>',
-        englishWords: ['taxi']
     },
     {
         unit: 'travel',
