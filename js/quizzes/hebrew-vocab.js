@@ -1987,7 +1987,7 @@ var hebrewVocabProblems = [
         unit: 9,
         hebrewWord: "קופה",
         transliteration: "ku<strong>pa</strong>",
-        englishWords: ["cash box"],
+        englishWords: ["checkout", "cash register"],
         gender: Genders.feminine
     },
     {
