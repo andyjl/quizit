@@ -587,12 +587,6 @@ var hebrewVocabProblems = [
     },
     {
         unit: 2,
-        hebrewWord: "בערך",
-        transliteration: "be-<strong>e</strong>rex",
-        englishWords: ["more or less"]
-    },
-    {
-        unit: 2,
         hebrewWord: "ככה",
         transliteration: "<strong>ka</strong>xa",
         englishWords: ["this way"]
@@ -2168,6 +2162,323 @@ var hebrewVocabProblems = [
         hebrewWord: "אדוני",
         transliteration: "ado<strong>ni</strong>",
         englishWords: ["Mr", "sir"],
+    },
+
+    {
+        unit: 10,
+        hebrewWord: "טיול",
+        transliteration: "ti<strong>yul</strong>",
+        englishWords: ["hike", "walk"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מפה",
+        transliteration: "ma<strong>pa</strong>",
+        englishWords: "map"
+    },
+    {
+        unit: 10,
+        hebrewWord: "מצלמה",
+        transliteration: "matslema",
+        englishWords: "camera"
+    },
+    {
+        unit: 10,
+        hebrewWord: "מדריך",
+        transliteration: "mad<strong>rix</strong>",
+        englishWords: "guide"
+    },
+    {
+        unit: 10,
+        hebrewWord: "מסגד",
+        transliteration: "mis<strong>gad</strong>",
+        englishWords: "mosque",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "כנסייה",
+        transliteration: "knesi<strong>ya</strong>",
+        englishWords: "church"
+    },
+    {
+        unit: 10,
+        hebrewWord: "גבר",
+        transliteration: "<strong>ge</strong>ver",
+        englishWords: "man",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "גברים",
+        transliteration: "gva<strong>rim</strong>",
+        englishWords: "men",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "תייר",
+        transliteration: "ta<strong>yar</strong>",
+        englishWords: "tourist",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "תיירת",
+        transliteration: "ta<strong>ye</strong>ret",
+        englishWords: "tourist",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "פתק",
+        transliteration: "<strong>pe</strong>tek",
+        englishWords: "note",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "פתקים",
+        transliteration: "pta<strong>kim</strong>",
+        englishWords: "notes",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "דת",
+        transliteration: "dat",
+        englishWords: "religion",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "דתות",
+        transliteration: "da<strong>tot</strong>",
+        englishWords: "religions",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "חשוב",
+        transliteration: "xa<strong>shuv</strong>",
+        englishWords: "important",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "חשובה",
+        transliteration: "xashu<strong>va</strong>",
+        englishWords: "important",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "קדוש",
+        transliteration: "ka<strong>dosh</strong>",
+        englishWords: "holy",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "קדושה",
+        transliteration: "kdo<strong>sha</strong>",
+        englishWords: "holy",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מעניין",
+        transliteration: "me'an<strong>yen</strong>",
+        englishWords: "interesting",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מעניינת",
+        transliteration: "me'an<strong>ye</strong>net",
+        englishWords: "interesting",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "דתי",
+        transliteration: "da<strong>ti</strong>",
+        englishWords: "religious",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "דתייה",
+        transliteration: "dati<strong>ya</strong>",
+        englishWords: "religious",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "חילוני",
+        transliteration: "xilo<strong>ni</strong>",
+        englishWords: "secular",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "חילונית",
+        transliteration: "xilo<strong>nit</strong>",
+        englishWords: "secular",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "יהודי",
+        transliteration: "yehu<strong>di</strong>",
+        englishWords: ["Jew", "Jewish"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "יהודייה",
+        transliteration: "yehudi<strong>ya</strong>",
+        englishWords: ["Jew", "Jewish"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "נוצרי",
+        transliteration: "no<strong>tsri</strong>",
+        englishWords: "Christian",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "נוצרייה",
+        transliteration: "notsri<strong>ya</strong>",
+        englishWords: "Christian",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מוסלמי",
+        transliteration: "musle<strong>mi</strong>",
+        englishWords: "Muslim",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מוסלמית",
+        transliteration: "musle<strong>mit</strong>",
+        englishWords: "Muslim",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מתפלל",
+        transliteration: "mitpa<strong>lel</strong>",
+        englishWords: "pray",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מתפללת",
+        transliteration: "mitpa<strong>le</strong>let",
+        englishWords: "pray",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "להתפלל",
+        transliteration: "lehitpa<strong>lel</strong>",
+        englishWords: "to pray"
+    },
+    {
+        unit: 10,
+        hebrewWord: "מצלם",
+        transliteration: "metsa<strong>lem</strong> (verb)",
+        englishWords: "photograph",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מצלמת",
+        transliteration: "metsa<strong>le</strong>met (verb)",
+        englishWords: "photograph",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "לצלם",
+        transliteration: "letsa<strong>lem</strong>",
+        englishWords: "to photograph"
+    },
+    {
+        unit: 10,
+        hebrewWord: "מסדר",
+        transliteration: "mesader",
+        englishWords: ["organize", "put in order"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "מטייל",
+        transliteration: "metayel",
+        englishWords: ["travel", "go for a walk"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "מנגן",
+        transliteration: "menagen (music)",
+        englishWords: "play"
+    },
+    {
+        unit: 10,
+        hebrewWord: "כולם",
+        transliteration: "ku<strong>lam</strong>",
+        englishWords: ["everybody", "everyone"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "בערך",
+        transliteration: "be'<strong>er</strong>ex",
+        englishWords: ["about", "approximately"]
+    },
+    {
+        unit: 10,
+        hebrewWord: "עיר בירה",
+        transliteration: "ir bira",
+        englishWords: "capital city"
+    },
+    {
+        unit: 10,
+        hebrewWord: "פעם",
+        transliteration: "<strong>pa</strong>'am",
+        englishWords: ["once", "time"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "פעמים",
+        transliteration: "pe'a<strong>mim</strong>",
+        englishWords: "times",
+        gender: Genders.feminine
+    },
+    {
+        unit: 10,
+        hebrewWord: "טבע",
+        transliteration: "<strong>te</strong>va",
+        englishWords: "nature"
+    },
+    {
+        unit: 10,
+        hebrewWord: "מדבר",
+        transliteration: "mid<strong>bar</strong>",
+        englishWords: "desert",
+        gender: Genders.masculine
+    },
+    {
+        unit: 10,
+        hebrewWord: "מדבריות",
+        transliteration: "midbari<strong>yot</strong>",
+        englishWords: "deserts",
+        gender: Genders.masculine
     },
 
     {
