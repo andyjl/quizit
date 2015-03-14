@@ -2482,6 +2482,252 @@ var hebrewVocabProblems = [
     },
 
     {
+        unit: 11,
+        hebrewWord: "תפריט",
+        transliteration: "taf<strong>rit</strong>",
+        englishWords: ["menu"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "צלחת",
+        transliteration: "tsa<strong>la</strong>xat",
+        englishWords: ["plate"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "צלחות",
+        transliteration: "tsala<strong>xot</strong>",
+        englishWords: ["plates"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "כוס",
+        transliteration: "kos",
+        englishWords: ["glass", "cup"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "כוסות",
+        transliteration: "ko<strong>sot</strong>",
+        englishWords: ["glasses", "cups"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "מזלג",
+        transliteration: "maz<strong>leg</strong>",
+        englishWords: ["fork"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "מזלגות",
+        transliteration: "mazle<strong>got</strong>",
+        englishWords: ["forks"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "סכין",
+        transliteration: "sa<strong>kin</strong>",
+        englishWords: ["knife"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "סכינים",
+        transliteration: "saki<strong>nim</strong>",
+        englishWords: ["knifes"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "עוף",
+        transliteration: "'off",
+        englishWords: ["chicken"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "עופות",
+        transliteration: "of<strong>ot</strong>",
+        englishWords: ["chickens"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "אורז",
+        transliteration: "<strong>o</strong>rez",
+        englishWords: ["rice"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 11,
+        hebrewWord: "גבינה",
+        transliteration: "gvi<strong>na</strong>",
+        englishWords: ["cheese"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מסביר",
+        transliteration: "mas<strong>bir</strong>",
+        englishWords: ["explain"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מסבירה",
+        transliteration: "masbi<strong>ra</strong>",
+        englishWords: ["explain"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "להסביר",
+        transliteration: "lehas<strong>bir</strong>",
+        englishWords: ["to explain"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מסכים",
+        transliteration: "maskim",
+        englishWords: ["agree"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מאמין",
+        transliteration: "ma’amin",
+        englishWords: ["believe"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מפסיק",
+        transliteration: "mafsik",
+        englishWords: ["stop"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "ממשיך",
+        transliteration: "mamshix",
+        englishWords: ["continue"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מפריע",
+        transliteration: "mafri’a",
+        englishWords: ["disturb"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מחליט",
+        transliteration: "maxlit",
+        englishWords: ["decide"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "ממליץ",
+        transliteration: "mamlits",
+        englishWords: ["recommend"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "חוגג",
+        transliteration: "xo<strong>geg</strong>",
+        englishWords: ["celebrate"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מעשן",
+        transliteration: "me’a<strong>shen</strong>",
+        englishWords: ["smoke"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מתרגש",
+        transliteration: "mitra<strong>gesh</strong>",
+        englishWords: ["get excited"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מתרגשת",
+        transliteration: "mitra<strong>ge</strong>shet",
+        englishWords: ["get excited"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "נקי",
+        transliteration: "na<strong>ki</strong>",
+        englishWords: ["clean"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "נקייה",
+        transliteration: "neki<strong>ya</strong>",
+        englishWords: ["clean"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מלוכלך",
+        transliteration: "melux<strong>lax</strong>",
+        englishWords: ["dirty"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מלוכלכת",
+        transliteration: "melux<strong>le</strong>xet",
+        englishWords: ["dirty"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מנה ראשונה",
+        transliteration: "mana risho<strong>na</strong>",
+        englishWords: ["first course"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מנה עיקרית",
+        transliteration: "mana ika<strong>rit</strong>",
+        englishWords: ["main course"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "מנה אחרונה",
+        transliteration: "mana axro<strong>na</strong>",
+        englishWords: ["final course", "dessert"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "קינוח",
+        transliteration: "ki<strong>nu</strong>’ax",
+        englishWords: ["dessert"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "תוספת",
+        transliteration: "to<strong>se</strong>fet",
+        englishWords: ["seconds", "side dish"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "תוספות",
+        transliteration: "tosa<strong>fot</strong>",
+        englishWords: ["seconds", "side dishes"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 11,
+        hebrewWord: "במקום",
+        transliteration: "bimkom",
+        englishWords: ["instead"]
+    },
+    {
+        unit: 11,
+        hebrewWord: "בתאבון",
+        transliteration: "be-te’a<strong>von</strong>",
+        englishWords: ["bon appetite!"]
+    },
+
+    {
         unit: 'travel',
         hebrewWord: 'אחר צהריים טובים',
         transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
@@ -2615,33 +2861,15 @@ var hebrewVocabProblems = [
     },
     {
         unit: 'travel',
-        hebrewWord: 'עוף',
-        transliteration: '`off',
-        englishWords: ['chicken']
-    },
-    {
-        unit: 'travel',
         hebrewWord: 'בקר',
         transliteration: 'baqar',
         englishWords: ['beef']
     },
     {
         unit: 'travel',
-        hebrewWord: 'גבינה',
-        transliteration: 'gvinah',
-        englishWords: ['cheese']
-    },
-    {
-        unit: 'travel',
         hebrewWord: 'ביצה',
         transliteration: 'beitsah',
         englishWords: ['eggs']
-    },
-    {
-        unit: 'extra',
-        hebrewWord: "ירקות",
-        transliteration: "yerakot",
-        englishWords: ["vegetables"]
     },
     {
         unit: 'travel',
@@ -2660,12 +2888,6 @@ var hebrewVocabProblems = [
         hebrewWord: 'נודלז',
         transliteration: 'nudelz',
         englishWords: ['noodles']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'אורז',
-        transliteration: 'orez',
-        englishWords: ['rice']
     },
     {
         unit: 'travel',
