@@ -2539,7 +2539,7 @@ var hebrewVocabProblems = [
         unit: 11,
         hebrewWord: "סכינים",
         transliteration: "saki<strong>nim</strong>",
-        englishWords: ["knifes"]
+        englishWords: ["knives"]
     },
     {
         unit: 11,
@@ -2724,7 +2724,7 @@ var hebrewVocabProblems = [
         unit: 11,
         hebrewWord: "בתאבון",
         transliteration: "be-te’a<strong>von</strong>",
-        englishWords: ["bon appetite!"]
+        englishWords: ["bon appetite"]
     },
 
     {
