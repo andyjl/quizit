@@ -2712,14 +2712,14 @@ var hebrewVocabProblems = [
         unit: 11,
         hebrewWord: "תוספת",
         transliteration: "to<strong>se</strong>fet",
-        englishWords: ["seconds", "side dish"],
+        englishWords: ["side dish", "seconds"],
         gender: Genders.feminine
     },
     {
         unit: 11,
         hebrewWord: "תוספות",
         transliteration: "tosa<strong>fot</strong>",
-        englishWords: ["seconds", "side dishes"],
+        englishWords: ["side dishes", "seconds"],
         gender: Genders.feminine
     },
     {
