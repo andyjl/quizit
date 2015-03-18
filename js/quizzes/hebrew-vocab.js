@@ -2572,13 +2572,15 @@ var hebrewVocabProblems = [
         unit: 11,
         hebrewWord: "מסביר",
         transliteration: "mas<strong>bir</strong>",
-        englishWords: ["explain"]
+        englishWords: ["explain"],
+        gender: Genders.masculine
     },
     {
         unit: 11,
         hebrewWord: "מסבירה",
         transliteration: "masbi<strong>ra</strong>",
-        englishWords: ["explain"]
+        englishWords: ["explain"],
+        gender: Genders.feminine
     },
     {
         unit: 11,
@@ -2644,37 +2646,43 @@ var hebrewVocabProblems = [
         unit: 11,
         hebrewWord: "מתרגש",
         transliteration: "mitra<strong>gesh</strong>",
-        englishWords: ["get excited"]
+        englishWords: ["get excited"],
+        gender: Genders.masculine
     },
     {
         unit: 11,
         hebrewWord: "מתרגשת",
         transliteration: "mitra<strong>ge</strong>shet",
-        englishWords: ["get excited"]
+        englishWords: ["get excited"],
+        gender: Genders.feminine
     },
     {
         unit: 11,
         hebrewWord: "נקי",
         transliteration: "na<strong>ki</strong>",
-        englishWords: ["clean"]
+        englishWords: ["clean"],
+        gender: Genders.masculine
     },
     {
         unit: 11,
         hebrewWord: "נקייה",
         transliteration: "neki<strong>ya</strong>",
-        englishWords: ["clean"]
+        englishWords: ["clean"],
+        gender: Genders.feminine
     },
     {
         unit: 11,
         hebrewWord: "מלוכלך",
         transliteration: "melux<strong>lax</strong>",
-        englishWords: ["dirty"]
+        englishWords: ["dirty"],
+        gender: Genders.masculine
     },
     {
         unit: 11,
         hebrewWord: "מלוכלכת",
         transliteration: "melux<strong>le</strong>xet",
-        englishWords: ["dirty"]
+        englishWords: ["dirty"],
+        gender: Genders.feminine
     },
     {
         unit: 11,
