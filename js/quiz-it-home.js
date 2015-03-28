@@ -36,7 +36,7 @@ QuizItHome = {
     restoreVocabLinks: function () {
         var unitsStr = $.cookie("vocab-links");
         if (!unitsStr) {
-            unitsStr = "10,11";
+            unitsStr = "12,13,14";
         }
 
         var units = unitsStr.split(",");
