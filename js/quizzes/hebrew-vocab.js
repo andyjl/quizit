@@ -74,14 +74,14 @@ var hebrewVocabProblems = [
         unit: 1,
         hebrewWord: "שבוע",
         transliteration: "sha<strong>vu</strong>'a",
-        englishWords: ["week"]
+        englishWords: ["week"],
         gender: Genders.masculine
     },
     {
         unit: 1,
         hebrewWord: "שבועות",
         transliteration: "shavu'<strong>ot</strong>",
-        englishWords: ["weeks"]
+        englishWords: ["weeks"],
         gender: Genders.masculine
     },
     {
@@ -95,14 +95,14 @@ var hebrewVocabProblems = [
         unit: 1,
         hebrewWord: "מסיבה",
         transliteration: "mesi<strong>ba</strong>",
-        englishWords: ["party"]
+        englishWords: ["party"],
         gender: Genders.feminine
     },
     {
         unit: 1,
         hebrewWord: "משפחה",
         transliteration: "mishpa<strong>xa</strong>",
-        englishWords: ["family"]
+        englishWords: ["family"],
         gender: Genders.feminine
     },
     {
@@ -278,7 +278,7 @@ var hebrewVocabProblems = [
         unit: 1,
         hebrewWord: "ליד",
         transliteration: "le<strong>yad</strong>",
-        englishWords: ["near", "by", "beside", "next to"]
+        englishWords: ["near", "by", "beside", "next to"],
         gender: Genders.masculine
     },
 
@@ -286,7 +286,7 @@ var hebrewVocabProblems = [
         unit: 2,
         hebrewWord: "מרק",
         transliteration: "ma<strong>rak</strong>",
-        englishWords: ["soup"]
+        englishWords: ["soup"],
         gender: Genders.masculine
     },
     {
@@ -314,7 +314,7 @@ var hebrewVocabProblems = [
         unit: 2,
         hebrewWord: "אחות",
         transliteration: "a<strong>xot</strong>",
-        englishWords: ["nurse"]
+        englishWords: ["nurse"],
         gender: Genders.feminine
     },
     {
@@ -749,7 +749,7 @@ var hebrewVocabProblems = [
         unit: 3,
         hebrewWord: "קל",
         transliteration: "kal",
-        englishWords: ["easy"]
+        englishWords: ["easy"],
         gender: Genders.masculine
     },
     {
@@ -774,7 +774,7 @@ var hebrewVocabProblems = [
         unit: 3,
         hebrewWord: "מספיק",
         transliteration: "mas<strong>pix</strong>",
-        englishWords: ["enough"]
+        englishWords: ["enough"],
         gender: Genders.masculine
     },
     {
@@ -800,21 +800,21 @@ var hebrewVocabProblems = [
         unit: 4,
         hebrewWord: "ירק",
         transliteration: "<strong>ye</strong>rek",
-        englishWords: ["vegetable"]
+        englishWords: ["vegetable"],
         gender: Genders.masculine
     },
     {
         unit: 4,
         hebrewWord: "ירקות",
         transliteration: "yera<strong>kot</strong>",
-        englishWords: ["vegetables"]
+        englishWords: ["vegetables"],
         gender: Genders.masculine
     },
     {
         unit: 4,
         hebrewWord: "בצל",
         transliteration: "ba<strong>tsal</strong>",
-        englishWords: ["onion"]
+        englishWords: ["onion"],
         gender: Genders.masculine
     },
     {
@@ -828,14 +828,14 @@ var hebrewVocabProblems = [
         unit: 4,
         hebrewWord: "חסה",
         transliteration: "<strong>xa</strong>sa",
-        englishWords: ["lettuce"]
+        englishWords: ["lettuce"],
         gender: Genders.feminine
     },
     {
         unit: 4,
         hebrewWord: "כרוב",
         transliteration: "kruv",
-        englishWords: ["cabbage"]
+        englishWords: ["cabbage"],
         gender: Genders.masculine
     },
     {
@@ -3206,12 +3206,6 @@ var hebrewVocabProblems = [
         hebrewWord: 'פחות',
         transliteration: 'pa<strong>xot</strong>',
         englishWords: ['less']
-    },
-    {
-        unit: 'travel',
-        hebrewWord: 'שדה התעופה',
-        transliteration: 'sde hate`u<strong>fah</strong>',
-        englishWords: ['airport']
     },
     {
         unit: 'travel',
