@@ -3154,6 +3154,198 @@ var hebrewVocabProblems = [
     },
 
     {
+        unit: 15,
+        hebrewWord: "בקבוק",
+        transliteration: "baq<strong>buq</strong>",
+        englishWords: ["bottle"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "שמנת",
+        transliteration: "sha<strong>me</strong>net",
+        englishWords: ["cream"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "ישיבה",
+        transliteration: "yeshi<strong>va</strong>",
+        englishWords: ["Talmudic college"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "נעל",
+        transliteration: "<strong>na</strong>’al",
+        englishWords: ["shoe"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 15,
+        hebrewWord: "נעליים",
+        transliteration: "na’a<strong>la</strong>yim",
+        englishWords: ["shoes"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 15,
+        hebrewWord: "ארוחה",
+        transliteration: "aru<strong>xa</strong>",
+        englishWords: ["meal"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "פרח",
+        transliteration: "<strong>pe</strong>rax",
+        englishWords: ["flower"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 15,
+        hebrewWord: "פרחים",
+        transliteration: "pra<strong>xim</strong>",
+        englishWords: ["flowers"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 15,
+        hebrewWord: "מתנה",
+        transliteration: "mata<strong>na</strong>",
+        englishWords: ["gift", "present"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "קיבוץ",
+        transliteration: "qi<strong>buts</strong>",
+        englishWords: ["kibbutz"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "עץ",
+        transliteration: "ets",
+        englishWords: ["tree", "wood"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "עצים",
+        transliteration: "e<strong>tsim</strong>",
+        englishWords: ["trees"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "אדמה",
+        transliteration: "ada<strong>ma</strong>",
+        englishWords: ["land", "earth", "ground"]
+    },
+    {
+        unit: 15,
+        hebrewWord: "זית",
+        transliteration: "<strong>za</strong>yit",
+        englishWords: ["olive"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 15,
+        hebrewWord: "זיתים",
+        transliteration: "zei<strong>tim</strong>",
+        englishWords: ["olives"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 15,
+        hebrewWord: "אהבה",
+        transliteration: "aha<strong>va</strong>",
+        englishWords: ["love"]
+    },
+
+
+    {
+        unit: 16,
+        hebrewWord: "אחרון",
+        transliteration: "axa<strong>ron</strong>",
+        englishWords: ["last"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 16,
+        hebrewWord: "אחרונה",
+        transliteration: "axro<strong>na</strong>",
+        englishWords: ["last"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 16,
+        hebrewWord: "כנראה",
+        transliteration: "kanir’<strong>e</strong>",
+        englishWords: ["apparently", "probably"]
+    },
+    {
+        unit: 16,
+        hebrewWord: "אפילו",
+        transliteration: "a<strong>fi</strong>lu",
+        englishWords: ["even"]
+    },
+    {
+        unit: 16,
+        hebrewWord: "שום דבר",
+        transliteration: "shum da<strong>var</strong>",
+        englishWords: ["nothing"]
+    },
+    {
+        unit: 16,
+        hebrewWord: "אף פעם",
+        transliteration: "af <strong>pa</strong>’am",
+        englishWords: ["never"]
+    },
+    {
+        unit: 16,
+        hebrewWord: "אף אחד",
+        transliteration: "af e<strong>xad</strong>",
+        englishWords: ["nobody"]
+    },
+    {
+        unit: 16,
+        hebrewWord: "עייף",
+        transliteration: "a<strong>yef</strong>",
+        englishWords: ["tired"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 16,
+        hebrewWord: "עייפה",
+        transliteration: "aye<strong>fa</strong>",
+        englishWords: ["tired"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 16,
+        hebrewWord: "רעב",
+        transliteration: "ra’<strong>ev</strong>",
+        englishWords: ["hungry"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 16,
+        hebrewWord: "רעבה",
+        transliteration: "re’e<strong>va</strong>",
+        englishWords: ["hungry"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 16,
+        hebrewWord: "צמא",
+        transliteration: "tsa<strong>me</strong>",
+        englishWords: ["thirsty"],
+        gender: Genders.masculine
+
+    },
+    {
+        unit: 16,
+        hebrewWord: "צמאה",
+        transliteration: "tsme’<strong>a</strong>",
+        englishWords: ["thirsty"],
+        gender: Genders.feminine
+    },
+
+    {
         unit: 'travel',
         hebrewWord: 'אחר צהריים טובים',
         transliteration: 'a<strong>xar</strong> tsoho<strong>ra</strong>yim to<strong>vim</strong>',
