@@ -5,6 +5,13 @@ QuizItHome = {
     vocabSameLink: "quiz.html?quiz=hebrew-vocab-same&units={0}",
     vocabTransLink: "quiz.html?quiz=hebrew-vocab-trans&units={0}",
 
+    onCheckAllCheckbox_click: function (e) {
+        var check = $("#checkall")[0].checked;
+        $(".js-vocab-checkbox").each(function(index, box) {
+            box.checked = check;
+        });
+    },
+
     onVocabCheckbox_click: function (e) {
         QuizItHome.updateVocabLinks();
     },
@@ -23,6 +30,7 @@ QuizItHome = {
 
     init: function () {
         $(".js-vocab-checkbox").click(this.onVocabCheckbox_click);
+        $("#checkall").click(this.onCheckAllCheckbox_click);
         this.restoreVocabLinks();
         this.updateVocabLinks();
 
@@ -36,7 +44,7 @@ QuizItHome = {
     restoreVocabLinks: function () {
         var unitsStr = $.cookie("vocab-links");
         if (!unitsStr) {
-            unitsStr = "12,13,14";
+            unitsStr = "16,17,18";
         }
 
         var units = unitsStr.split(",");

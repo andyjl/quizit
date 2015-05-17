@@ -2088,6 +2088,12 @@ var hebrewVocabProblems = [
     },
     {
         unit: 9,
+        hebrewWord: "לצאת",
+        transliteration: "la<strong>tset</strong>",
+        englishWords: ["to go out", "to exit"],
+    },
+    {
+        unit: 9,
         hebrewWord: "לוקח",
         transliteration: "lo<strong>ke</strong>’ax",
         englishWords: ["take"],
@@ -3343,6 +3349,149 @@ var hebrewVocabProblems = [
         transliteration: "tsme’<strong>a</strong>",
         englishWords: ["thirsty"],
         gender: Genders.feminine
+    },
+
+    {
+        unit: 17,
+        hebrewWord: "גיל",
+        transliteration: "gil",
+        englishWords: ["age"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 17,
+        hebrewWord: "אסור",
+        transliteration: "a<strong>sur</strong>",
+        englishWords: ["forbidden"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "מותר",
+        transliteration: "mu<strong>tar</strong>",
+        englishWords: ["allowed"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "כדאי",
+        transliteration: "kdai",
+        englishWords: ["worthwhile"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "אפשר",
+        transliteration: "ef<strong>shar</strong>",
+        englishWords: ["possible"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "אי אפשר",
+        transliteration: "ee-ef<strong>shar</strong>",
+        englishWords: ["impossible"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "מפורסם",
+        transliteration: "mefur<strong>sam</strong>",
+        englishWords: ["famous"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 17,
+        hebrewWord: "מפורסמת",
+        transliteration: "mefur<strong>se</strong>met",
+        englishWords: ["famous"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 17,
+        hebrewWord: "מאחר",
+        transliteration: "me'a<strong>xer</strong>",
+        englishWords: ["to be late"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "נוהג",
+        transliteration: "no<strong>heg</strong>",
+        englishWords: ["drive"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 17,
+        hebrewWord: "נוהגת",
+        transliteration: "no<strong>he</strong>get",
+        englishWords: ["drive"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 17,
+        hebrewWord: "לנהוג",
+        transliteration: "lin<strong>hog</strong>",
+        englishWords: ["to drive"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "צועק",
+        transliteration: "tso'<strong>ek</strong>",
+        englishWords: ["shout"]
+    },
+    {
+        unit: 17,
+        hebrewWord: "צוחק",
+        transliteration: "tso<strong>xek</strong>",
+        englishWords: ["laugh"]
+    },
+
+    {
+        unit: 18,
+        hebrewWord: "חופשה",
+        transliteration: "xuf<strong>sha</strong>",
+        englishWords: ["vacation"]
+    },
+    {
+        unit: 18,
+        hebrewWord: "רעיון",
+        transliteration: "ra'a<strong>yon</strong>",
+        englishWords: ["idea"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 18,
+        hebrewWord: "רעיונות",
+        transliteration: "ra'ayo<strong>not</strong>",
+        englishWords: ["ideas"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 18,
+        hebrewWord: "מביא",
+        transliteration: "me<strong>vi</strong>",
+        englishWords: ["bring"]
+    },
+    {
+        unit: 18,
+        hebrewWord: "מכין",
+        transliteration: "me<strong>xin</strong>",
+        englishWords: ["make", "prepare"]
+    },
+    {
+        unit: 18,
+        hebrewWord: "מחכה",
+        transliteration: "mexa<strong>ke</strong>",
+        englishWords: ["wait"],
+        gender: Genders.masculine
+    },
+    {
+        unit: 18,
+        hebrewWord: "מחכה",
+        transliteration: "mexa<strong>ka</strong>",
+        englishWords: ["wait"],
+        gender: Genders.feminine
+    },
+    {
+        unit: 18,
+        hebrewWord: "בא לי",
+        transliteration: "ba li (slang)",
+        englishWords: ["I want"]
     },
 
     {
