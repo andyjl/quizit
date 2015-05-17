@@ -10,6 +10,7 @@ QuizItHome = {
         $(".js-vocab-checkbox").each(function(index, box) {
             box.checked = check;
         });
+        QuizItHome.updateVocabLinks();
     },
 
     onVocabCheckbox_click: function (e) {
