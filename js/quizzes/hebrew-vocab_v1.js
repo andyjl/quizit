@@ -1760,7 +1760,7 @@ var hebrewVocabProblems = [
     },
     {
         unit: 13,
-        hebrewWord: "רץה",
+        hebrewWord: "רצה",
         transliteration: "ratsa",
         englishWords: ["run"],
         gender: Genders.feminine
