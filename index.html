@@ -53,6 +53,9 @@
         .quiz-list a.alphabet:hover {
             background: #2461B8;
         }
+        .quiz-list a.hebrew-grammar {
+            background: #9E0000;
+        }
         .quiz-list a.greek-alphabet {
             background: #9E0000;
         }
@@ -114,6 +117,32 @@
             </ul>
             <ul class="quiz-list">
                 <li>
+                    <a class="hebrew-grammar" href="quiz.html?quiz=hebrew-past-tense-forms">
+                        <strong>Past Forms</strong><br>
+                        <p>Hebrew --> English</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="hebrew-grammar" href="quiz.html?quiz=hebrew-past-tense-pronouns">
+                        <strong>Past Pronouns</strong><br>
+                        <p>Hebrew --> English</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="hebrew-grammar" href="quiz.html?quiz=hebrew-future-tense-forms">
+                        <strong>Future Forms</strong><br>
+                        <p>Hebrew --> English</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="hebrew-grammar" href="quiz.html?quiz=hebrew-future-tense-pronouns">
+                        <strong>Future Pronouns</strong><br>
+                        <p>Hebrew --> English</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="quiz-list hidden">
+                <li>
                     <a class="greek-alphabet" href="quiz.html?quiz=greek-alphabet">
                         <strong>Greek Alphabet</strong><br>
                         <p>Greek --> English</p>
@@ -126,7 +155,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="quiz-list">
+            <ul class="quiz-list hidden">
                 <li>
                     <a class="vocab js-vocab-link" href="">
                         <strong>Hebrew Vocabulary</strong><br>
@@ -158,8 +187,8 @@
                     </a>
                 </li>
             </ul>
-            <h5>Vocabulary Words:</h5>
-            <form>
+            <h5 class="hidden">Vocabulary Words:</h5>
+            <form class="hidden">
                 <input id="checkall" type="checkbox"/><label for="checkall">Select All</label><br>
                 <input id="unit1" class="js-vocab-checkbox" unit="1" type="checkbox"/><label for="unit1">Unit 1</label><br>
                 <input id="unit2" class="js-vocab-checkbox" unit="2" type="checkbox"/><label for="unit2">Unit 2</label><br>
@@ -189,16 +218,16 @@
                     </a>
                 </li>
                 <li>
-                    <a class="greek-alphabet" href="review.html?quiz=greek-alphabet">
+                    <a class="greek-alphabet hidden" href="review.html?quiz=greek-alphabet">
                         <strong>Greek Alphabet</strong>
                     </a>
                 </li>
                 <li>
-                    <a class="arabic-alphabet" href="review.html?quiz=arabic-abjad">
+                    <a class="arabic-alphabet hidden" href="review.html?quiz=arabic-abjad">
                         <strong>Arabic Abjad</strong>
                     </a>
                 </li>
-                <li>
+                <li class="hidden">
                     <a class="vocab" href="review.html?quiz=hebrew-vocab">
                         <strong>Hebrew Vocabulary</strong>
                     </a>
@@ -206,6 +235,28 @@
                 <li>
                     <a class="vocab hidden" href="review.html?quiz=hebrew-tech-vocab">
                         <strong>Hebrew Tech</strong>
+                    </a>
+                </li>
+            </ul>
+            <ul class="quiz-list">
+                <li>
+                    <a class="hebrew-grammar" href="review.html?quiz=hebrew-past-tense-forms">
+                        <strong>Past Forms</strong><br>
+                    </a>
+                </li>
+                <li>
+                    <a class="hebrew-grammar" href="review.html?quiz=hebrew-past-tense-pronouns">
+                        <strong>Past Pronouns</strong><br>
+                    </a>
+                </li>
+                <li>
+                    <a class="hebrew-grammar" href="review.html?quiz=hebrew-future-tense-forms">
+                        <strong>Future Forms</strong><br>
+                    </a>
+                </li>
+                <li>
+                    <a class="hebrew-grammar" href="review.html?quiz=hebrew-future-tense-pronouns">
+                        <strong>Future Pronouns</strong><br>
                     </a>
                 </li>
             </ul>
