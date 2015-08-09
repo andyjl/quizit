@@ -788,7 +788,7 @@ var tobiasVocabQuiz = {
 };
 
 $.each(tobiasVocabQuiz.problems, function (index, problem) {
-    problem.hebrewWord = '<span class="hebrew">{0}</span>'.format(problem.hebrewWord);
+    problem.displayHebrewWord = '<span class="hebrew">{0}</span>'.format(problem.hebrewWord);
 })
 
 QuizIt.addQuiz(tobiasVocabQuiz);
