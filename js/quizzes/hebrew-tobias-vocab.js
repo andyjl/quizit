@@ -2,10 +2,10 @@ var tobiasVocabQuiz = {
 
     name: 'hebrew-tobias-vocab',
     description: 'Tobias Vocabulary',
-    messageText: 'Translate this Hebrew word into English',
+    messageText: 'Translate this word into Hebrew',
 
-    promptField: 'hebrewWord',
-    answerField: 'englishWords',
+    promptField: 'englishWords',
+    answerField: 'hebrewWord',
 
     reviewFields: [
         {
