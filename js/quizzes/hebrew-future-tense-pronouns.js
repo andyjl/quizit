@@ -27,6 +27,10 @@ var hebrewFutureTensePronouns = {
         },
     ],
 
+    getAnswerMessage: function (problem) {
+        return "({0})".format(problem.transliteration);
+    },
+
     problems: [],
 };
 
@@ -93,14 +97,51 @@ $.each(hebrewFutureTensePronounsProblems, function (index, problem) {
     }
 });
 
+var disableTransParam = QuizIt.getParameterByName("disabletrans");
+var reverseParam = QuizIt.getParameterByName("reverse");
+
 // Set the problems - include transliteration.
-$.each(hebrewFutureTensePronounsProblems, function (index, problem) {
-    hebrewFutureTensePronouns.problems.push({
-        hebrewWordWithEnglish: '<span class="hebrew">{0}</span> ({1})'.format(problem.hebrewWord, problem.transliteration),
-        hebrewWord: problem.hebrewWord,
-        englishWords: problem.englishWords,
-        transliteration: problem.transliteration,
+if (!reverseParam) {
+    $.each(hebrewFutureTensePronounsProblems, function (index, problem) {
+        var hebrewWordWithEnglish;
+        if (disableTransParam) {
+            hebrewWordWithEnglish = '<span class="hebrew">{0}</span>'.format(problem.hebrewWord);
+        } else {
+            hebrewWordWithEnglish = '<span class="hebrew">{0}</span> ({1})'.format(problem.hebrewWord, problem.transliteration);
+        }
+        hebrewFutureTensePronouns.problems.push({
+            hebrewWordWithEnglish: hebrewWordWithEnglish,
+            hebrewWord: problem.hebrewWord,
+            englishWords: problem.englishWords,
+            transliteration: problem.transliteration,
+        });
     });
-});
+} else {
+    $.each(hebrewFutureTensePronounsProblems, function (index, problem) {
+        var promptWord = problem.englishWords[0];
+
+        // Add the grammar.
+        if (problem.gender || problem.number) {
+            promptWord += " ( <em>";
+        }
+
+        if (problem.gender) {
+            promptWord += "{0}. ".format(problem.gender);
+        }
+        if (problem.number) {
+            promptWord += "{0} ".format(problem.number);
+        }
+
+        if (problem.gender || problem.number) {
+            promptWord += "</em>)";
+        }
+
+        hebrewFutureTensePronouns.problems.push({
+            hebrewWordWithEnglish: promptWord,
+            englishWords: problem.hebrewWord,
+            transliteration: problem.transliteration,
+        });
+    });
+}
 
 QuizIt.addQuiz(hebrewFutureTensePronouns);
