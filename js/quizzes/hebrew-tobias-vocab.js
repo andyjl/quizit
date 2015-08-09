@@ -376,7 +376,7 @@ var tobiasVocabQuiz = {
             englishWords: "library",
         },
         {
-            hebrewWord: "שירותים",
+            hebrewWord: "שרותים",
             englishWords: "washroom",
         },
         {
