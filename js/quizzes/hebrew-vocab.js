@@ -525,8 +525,8 @@ var hebrewVocabProblems = [
     },
     {
         unit: 'mine',
-        hebrewWord: "תגידי",
-        transliteration: "ta<strong>gid</strong>i",
+        hebrewWord: "תגיד לי",
+        transliteration: "ta<strong>gid</strong> li",
         englishWords: ["tell me"],
     },
     {
@@ -587,7 +587,7 @@ var hebrewVocabProblems = [
     },
     {
         unit: 'prepositions',
-        hebrewWord: "עלי",
+        hebrewWord: "עליי",
         transliteration: "alai",
         englishWords: ["about me"],
     },
