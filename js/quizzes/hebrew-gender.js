@@ -10,248 +10,248 @@ var genderQuiz = {
     problems: [
         {
             word: "חג, חגים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "קיבוץ, קיבוצים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "פרי, פירות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "גשם, גשמים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "פרח, פרחים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "עץ, עצים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "תרגיל, תרגילים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "ענן, עננים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "צמח, צמחים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "פתק, פתקים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "נביא, נביאים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "מחשב, מחשבים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "נייר, ניירות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "מקום, מקומות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "סוד, סודות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "לוח, לוחות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "גבול, גבולות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "כרטיס, כרטיסים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "בית, בתים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "זוג, זוגות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "חבר, חברים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "בגד, בגדים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "חיים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "אמצע",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "כביש, כבישים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "מטבח, מטבחים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "שדה, שדות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "חוף, חופים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "סיפור, סיפורים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "חדר",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "קול, קולות",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "עץ, עצים",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "טבע",
-            gender: "ז",
+            gender: "m",
         },
         {
             word: "פרק, פרקים",
-            gender: "ז",
+            gender: "m",
         },
 
         {
             word: "התחלה, התחלות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "שפה, שפות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "עונה, עונות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "רוח, רוחות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "שמש",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "מסורת, מסורות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "עוגה, עוגות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "גלידה, גלידות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "מסעדה, מסעדות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "ארוחה, ארוחות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "מסיבה, מסיבות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "דירה, דירות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "שיטה, שיטות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "סיבה, סיבות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "שכונה, שכונות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "ספרייה, ספריות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "בעייה, בעיות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "אבן, אבנים",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "שנה, שנים",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "דרך חיים",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "קבוצה, קבוצות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "נעל, נעליים",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "אגדה, אגדות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "שעה, שעות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "חקלאות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "עבודה, עובדות",
-            gender: "נ",
+            gender: "f",
         },
         {
             word: "בריכה, בריכות",
-            gender: "נ",
+            gender: "f",
         },
     ]
 
