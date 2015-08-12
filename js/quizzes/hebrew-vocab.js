@@ -601,7 +601,7 @@ var hebrewVocabProblems = [
     {
         unit: 'prepositions',
         hebrewWord: "עליך",
-        transliteration: "alach",
+        transliteration: "alaich",
         englishWords: ["about you"],
         gender: Genders.feminine,
     },
