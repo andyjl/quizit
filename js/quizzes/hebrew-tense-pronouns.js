@@ -3,10 +3,10 @@ Genders = {
     feminine: 'f'
 };
 
-var hebrewPastTensePronounsQuiz = {
+var hebrewTensePronounsQuiz = {
 
-    name: 'hebrew-past-tense-pronouns',
-    description: 'Hebrew Past Tense Pronouns',
+    name: 'hebrew-tense-pronouns',
+    description: 'Hebrew Tense Pronouns',
     messageText: 'Translate this into English',
 
     promptField: 'hebrewWordWithEnglish',
@@ -33,7 +33,7 @@ var hebrewPastTensePronounsQuiz = {
 
     problems: [],
 };
-var hebrewPastTensePronounsProblems = [
+var hebrewTensePronounsProblems = [
     {
         hebrewWord: "הייתי",
         transliteration: "ha-<strong>i</strong>ti",
@@ -90,10 +90,53 @@ var hebrewPastTensePronounsProblems = [
         englishWords: ["They were"],
         gender: Genders.feminine
     },
+
+    {
+        hebrewWord: "אהיה",
+        transliteration: "eh-hi-<strong>ey</strong>",
+        englishWords: ["I will be"],
+    },
+    {
+        hebrewWord: "תהיה",
+        transliteration: "ti-hi-<strong>ey</strong>",
+        englishWords: ["You will be"],
+        gender: Genders.masculine,
+    },
+    {
+        hebrewWord: "תהיי",
+        transliteration: "ti-hi-<strong>ee</strong>",
+        englishWords: ["You will be"],
+        gender: Genders.feminine,
+    },
+    {
+        hebrewWord: "יהיה",
+        transliteration: "yi-hi-<strong>ey</strong>",
+        englishWords: ["He will be"],
+    },
+    {
+        hebrewWord: "תהיה",
+        transliteration: "ti-hi-<strong>ey</strong>",
+        englishWords: ["She will be"],
+    },
+    {
+        hebrewWord: "נהיה",
+        transliteration: "ni-hi-<strong>ey</strong>",
+        englishWords: ["We will be"],
+    },
+    {
+        hebrewWord: "תהיו",
+        transliteration: "ti-hi-<strong>yu</strong>",
+        englishWords: ["You all will be"],
+    },
+    {
+        hebrewWord: "יהיו",
+        transliteration: "yi-hi-<strong>yu</strong>",
+        englishWords: ["They will be"],
+    },
 ];
 
 // Add grammar to the transliterations.
-$.each(hebrewPastTensePronounsProblems, function (index, problem) {
+$.each(hebrewTensePronounsProblems, function (index, problem) {
     if (problem.gender || problem.number) {
         problem.transliteration += "<em>,"
     }
@@ -115,14 +158,14 @@ var reverseParam = QuizIt.getParameterByName("reverse");
 
 // Set the problems - include transliteration.
 if (!reverseParam) {
-    $.each(hebrewPastTensePronounsProblems, function (index, problem) {
+    $.each(hebrewTensePronounsProblems, function (index, problem) {
         var hebrewWordWithEnglish;
         if (disableTransParam) {
             hebrewWordWithEnglish = '<span class="hebrew">{0}</span>'.format(problem.hebrewWord);
         } else {
             hebrewWordWithEnglish = '<span class="hebrew">{0}</span> ({1})'.format(problem.hebrewWord, problem.transliteration);
         }
-        hebrewPastTensePronounsQuiz.problems.push({
+        hebrewTensePronounsQuiz.problems.push({
             hebrewWordWithEnglish: hebrewWordWithEnglish,
             hebrewWord: problem.hebrewWord,
             englishWords: problem.englishWords,
@@ -130,7 +173,7 @@ if (!reverseParam) {
         });
     });
 } else {
-    $.each(hebrewPastTensePronounsProblems, function (index, problem) {
+    $.each(hebrewTensePronounsProblems, function (index, problem) {
         var promptWord = problem.englishWords[0];
 
         // Add the grammar.
@@ -149,7 +192,7 @@ if (!reverseParam) {
             promptWord += "</em>)";
         }
 
-        hebrewPastTensePronounsQuiz.problems.push({
+        hebrewTensePronounsQuiz.problems.push({
             hebrewWordWithEnglish: promptWord,
             englishWords: problem.hebrewWord,
             transliteration: problem.transliteration,
@@ -157,4 +200,4 @@ if (!reverseParam) {
     });
 }
 
-QuizIt.addQuiz(hebrewPastTensePronounsQuiz);
+QuizIt.addQuiz(hebrewTensePronounsQuiz);
