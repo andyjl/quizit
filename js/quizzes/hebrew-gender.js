@@ -8,7 +8,7 @@ var genderQuiz = {
     answerField: 'gender',
 
     problems: [
-        {
+        /*{
             word: "חג, חגים",
             gender: "m",
         },
@@ -251,6 +251,287 @@ var genderQuiz = {
         },
         {
             word: "בריכה, בריכות",
+            gender: "f",
+        },*/
+        {
+            word: "בחור, בחורים",
+            gender: "m",
+        },
+        {
+            word: "צעיר, צעירים",
+            gender: "m",
+        },
+        {
+            word: "פסוק, פסוקים",
+            gender: "m",
+        },
+        {
+            word: "סמל, סמלים",
+            gender: "m",
+        },
+        {
+            word: "אומן, אומנים",
+            gender: "m",
+        },
+        {
+            word: "נוף, נופים",
+            gender: "m",
+        },
+        {
+            word: "שטיח, שטיחים",
+            gender: "m",
+        },
+        {
+            word: "ציור, ציורים",
+            gender: "m",
+        },
+        {
+            word: "כסף",
+            gender: "m",
+        },
+        {
+            word: "זהב",
+            gender: "m",
+        },
+        {
+            word: "סגנון, סגנונות",
+            gender: "m",
+        },
+        {
+            word: "אריה, אריות",
+            gender: "m",
+        },
+        {
+            word: "ארון, ארונות",
+            gender: "m",
+        },
+        {
+            word: "צבע, צבעים",
+            gender: "m",
+        },
+        {
+            word: "בית, בתים",
+            gender: "m",
+        },
+        {
+            word: "רב, רבנים",
+            gender: "m",
+        },
+        {
+            word: "שער, שערים",
+            gender: "m",
+        },
+        {
+            word: "משיח, משיחים",
+            gender: "m",
+        },
+        {
+            word: "שם, שמות",
+            gender: "m",
+        },
+        {
+            word: "זבוב, זבובים",
+            gender: "m",
+        },
+        {
+            word: "לכלוך, לכלוכים",
+            gender: "m",
+        },
+        {
+            word: "סיפור, סיפורים",
+            gender: "m",
+        },
+        {
+            word: "מרכז, מרכזים",
+            gender: "m",
+        },
+        {
+            word: "שמיים",
+            gender: "m",
+        },
+        {
+            word: "רופא, רופאים",
+            gender: "m",
+        },
+        {
+            word: "כפר, כפרים",
+            gender: "m",
+        },
+        {
+            word: "תרמיל, תרמילים",
+            gender: "m",
+        },
+        {
+            word: "שק שינה, שקי שינה",
+            gender: "m",
+        },
+        {
+            word: "קשר, קשרים",
+            gender: "m",
+        },
+        {
+            word: "חופש",
+            gender: "m",
+        },
+        {
+            word: "בול, בולים",
+            gender: "m",
+        },
+        {
+            word: "מחקר, מחקרים",
+            gender: "m",
+        },
+        {
+            word: "אזרח, אזרחים",
+            gender: "m",
+        },
+        {
+            word: "תייר, תיירים",
+            gender: "m",
+        },
+        {
+            word: "פסל, פסלים",
+            gender: "m",
+        },
+        {
+            word: "מחנה, מחנות",
+            gender: "m",
+        },
+
+        {
+            word: "בחורה, בחורות",
+            gender: "f",
+        },
+        {
+            word: "אומנות",
+            gender: "f",
+        },
+        {
+            word: "חברה, חברות",
+            gender: "f",
+        },
+        {
+            word: "חומה, חומות",
+            gender: "f",
+        },
+        {
+            word: "חנוכיה, חנוכיות",
+            gender: "f",
+        },
+        {
+            word: "מנורה, מנורות",
+            gender: "f",
+        },
+        {
+            word: "מזוזה, מזוזות",
+            gender: "f",
+        },
+        {
+            word: "קבוצה, קבוצות",
+            gender: "f",
+        },
+        {
+            word: "אמונה, אמונות",
+            gender: "f",
+        },
+        {
+            word: "ספרות",
+            gender: "f",
+        },
+        {
+            word: "קהילה, קהילות",
+            gender: "f",
+        },
+        {
+            word: "עין, עיניים",
+            gender: "f",
+        },
+        {
+            word: "אהבה, אהבות",
+            gender: "f",
+        },
+        {
+            word: "תקופה, תקופות",
+            gender: "f",
+        },
+        {
+            word: "צלחת, צלחות",
+            gender: "f",
+        },
+        {
+            word: "כרית, כריות",
+            gender: "f",
+        },
+        {
+            word: "מפית, מפיות",
+            gender: "f",
+        },
+        {
+            word: "כפית, כפיות",
+            gender: "f",
+        },
+        {
+            word: "תרבות, תרבויות",
+            gender: "f",
+        },
+        {
+            word: "מחברת, מחברות",
+            gender: "f",
+        },
+        {
+            word: "משמעות, משמעויות",
+            gender: "f",
+        },
+        {
+            word: "טעות, טעויות",
+            gender: "f",
+        },
+        {
+            word: "נשיקה, נשיקות",
+            gender: "f",
+        },
+        {
+            word: "רשימה, רשימות",
+            gender: "f",
+        },
+        {
+            word: "תמונה, תמונות",
+            gender: "f",
+        },
+        {
+            word: "כתובת, כתובות",
+            gender: "f",
+        },
+        {
+            word: "דרישת שלום, דרישות שלים",
+            gender: "f",
+        },
+        {
+            word: "שואה",
+            gender: "f",
+        },
+        {
+            word: "תעודה, תעודות",
+            gender: "f",
+        },
+        {
+            word: "מטרה, מטרות",
+            gender: "f",
+        },
+        {
+            word: "ציונות",
+            gender: "f",
+        },
+        {
+            word: "מדינה, מדינות",
+            gender: "f",
+        },
+        {
+            word: "יצירה, יצירות",
+            gender: "f",
+        },
+        {
+            word: "הצגה, הצגות",
             gender: "f",
         },
     ]

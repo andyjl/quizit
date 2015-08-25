@@ -359,7 +359,7 @@ var hebrewVocabProblems = [
     {
         unit: 3,
         hebrewWord: "ציור",
-        transliteration: "tsi<strong>ur</strong>",
+        transliteration: "tsi<strong>yur</strong>",
         englishWords: ["painting"],
     },
     {
@@ -383,7 +383,7 @@ var hebrewVocabProblems = [
     {
         unit: 3,
         hebrewWord: "משיח",
-        transliteration: "moshiach",
+        transliteration: "mashiach",
         englishWords: ["Messiah"],
     },
     {
@@ -504,6 +504,7 @@ var hebrewVocabProblems = [
     {
         unit: 4,
         hebrewWord: "מוסרי",
+        transliteration: "musa<strong>ri</strong>",
         englishWords: ["ethical"],
     },
     {
@@ -527,7 +528,7 @@ var hebrewVocabProblems = [
     {
         unit: 4,
         hebrewWord: "מחקר",
-        transliteration: "mech<strong>kar</strong>",
+        transliteration: "<strong>mech</strong>kar",
         englishWords: ["research"],
     },
     {
@@ -539,6 +540,7 @@ var hebrewVocabProblems = [
     {
         unit: 4,
         hebrewWord: "פסל",
+        transliteration: "<strong>pe</strong>sel",
         englishWords: ["statue"],
     },
     {
@@ -586,7 +588,7 @@ var hebrewVocabProblems = [
     {
         unit: 4,
         hebrewWord: "ציונות",
-        transliteration: "tsionot",
+        transliteration: "tsi-yonut",
         englishWords: ["Zionism"],
     },
     {
@@ -888,7 +890,7 @@ var hebrewVocabProblems = [
     {
         unit: 'mine2',
         hebrewWord: "פסקה",
-        transliteration: "pisgah",
+        transliteration: "piskah",
         englishWords: ["paragraph"],
     },
     {
@@ -930,7 +932,7 @@ var hebrewVocabProblems = [
     {
         unit: 'mine2',
         hebrewWord: "שוחה",
-        transliteration: "so<strong>chek</strong>",
+        transliteration: "so<strong>che</strong>",
         englishWords: ["swim"],
     },
     {
@@ -1062,13 +1064,13 @@ var hebrewVocabProblems = [
     {
         unit: 'mine2',
         hebrewWord: "חייל",
-        transliteration: "chayel",
+        transliteration: "chayal",
         englishWords: ["soldier"],
     },
     {
         unit: 'mine2',
         hebrewWord: "בקרוב",
-        transliteration: "bikaruv",
+        transliteration: "bekarov",
         englishWords: ["soon"],
     },
     {
@@ -1098,6 +1100,7 @@ var hebrewVocabProblems = [
     {
         unit: 'mine2',
         hebrewWord: "מבטל",
+        transliteration: "mevatel",
         englishWords: ["cancel"],
     },
     {
@@ -1109,12 +1112,13 @@ var hebrewVocabProblems = [
     {
         unit: 'mine2',
         hebrewWord: "ממהר",
-        transliteration: "memher",
+        transliteration: "memaher",
         englishWords: ["hurry", "hasten to"],
     },
     {
         unit: 'mine2',
         hebrewWord: "מסיים",
+        transliteration: "mesayem",
         englishWords: ["finish", "complete"],
     },
     {
@@ -1144,6 +1148,7 @@ var hebrewVocabProblems = [
     {
         unit: 'mine2',
         hebrewWord: "מפרסם",
+        transliteration: "mefarsem",
         englishWords: ["publish", "advertise"],
     },
 
