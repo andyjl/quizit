@@ -62,6 +62,20 @@ QuizIt = {
         });
     },
 
+    _stripHebrewVowels: function (word) {
+        // Strip out the Hebrew vowels from the word.
+        var vowels = 'ְֱֲֳִֵֶַָֹֹֻּׂ';
+        var newWord = '';
+        for (var i = 0; i < word.length; i++) {
+            var char = word[i];
+            if (vowels.indexOf(char) === -1) {
+                newWord += char;
+            }
+        }
+
+        return newWord;
+    },
+
     /* Public Methods */
     addQuiz: function (quiz) {
         this.quizzes[quiz.name] = quiz;
@@ -115,12 +129,14 @@ QuizIt = {
         var currentAnswer = this._getCurrentAnswer();
         if (Array.isArray(currentAnswer)) {
             $.each(currentAnswer, function (index, possibleAnswer) {
+                possibleAnswer = QuizIt._stripHebrewVowels(possibleAnswer);
                 if (answer == possibleAnswer.toLowerCase()) {
                     right = true;
                     return false;
                 }
             });
         } else {
+            currentAnswer = QuizIt._stripHebrewVowels(currentAnswer);
             right = (answer == currentAnswer.toLowerCase());
         }
 
