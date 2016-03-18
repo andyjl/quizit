@@ -73,6 +73,10 @@ QuizIt = {
             }
         }
 
+        // Replace the Hebrew consonants that have
+        // "dots" with their simple counterparts.
+        newWord = newWord.replace(/שׁ/g, 'ש');
+
         return newWord;
     },
 

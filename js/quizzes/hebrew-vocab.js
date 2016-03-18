@@ -42,7 +42,7 @@ var hebrewVocabProblems = [
         unit: 1,
         hebrewWord: "סְבִיבָה",
         transliteration: "svi<strong>va</strong>",
-        englishWords: ["surroundings", "vicinity"],
+        englishWords: ["environment", "surroundings", "vicinity"],
         gender: Genders.feminine,
     },
     {
@@ -104,7 +104,7 @@ var hebrewVocabProblems = [
         unit: 1,
         hebrewWord: "לִתְפּוֹס",
         transliteration: "lit<strong>pos</strong>",
-        englishWords: ["to grasp", "to catch", "to capture"],
+        englishWords: ["to grasp", "to comprehend", "to catch", "to capture"],
     },
     {
         unit: 1,
@@ -164,7 +164,7 @@ var hebrewVocabProblems = [
     },
     {
         unit: 2,
-        hebrewWord: "גָלֶרְיָה (נ')",
+        hebrewWord: "גָלֶרְיָה",
         transliteration: "ga<strong>ler</strong>ya",
         englishWords: ["gallery"],
         gender: Genders.feminine,
@@ -196,7 +196,7 @@ var hebrewVocabProblems = [
         unit: 2,
         hebrewWord: "טֶלֶפוֹן נַיָיד",
         transliteration: "tele<strong>phon</strong> na<strong>yad</strong>",
-        englishWords: ["cellular phone"],
+        englishWords: ["cellphone", "cellular phone"],
         gender: Genders.masculine,
     },
     {
